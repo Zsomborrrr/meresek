@@ -31,7 +31,23 @@ Antennák nyereségének összehasonlítása három vételi ponton
 ## Értékelés
 - **Iskra P20**: [Rövid értékelés, például: "Stabil teljesítményt nyújtott a távolság növekedésével."]  
 - **Iskra P2845**: [Rövid értékelés, például: "Kiemelkedő jelerősség rövid távon, de csökkenés nagyobb távolság esetén."]  
-- **Ikusi Flash HD C48**: [Rövid értékelés, például: "Kiválóan szerepelt hosszabb távolságon is."]  
+- **Ikusi Flash HD C48**: [Rövid értékelés, például: "Kiválóan szerepelt hosszabb távolságon is."]
+
+## Képek a méréskhez
+<details>
+  <summary>Iskra P20</summary>
+    <details>
+      <summary>3. Emelete</summary>
+      <img src="https://github.com/user-attachments/assets/3f91e18c-e991-4fce-93c5-46097b480ef1
+">
+      <summary>Udvar</summary>
+      <img src="https://github.com/user-attachments/assets/697546da-2476-4dc9-8243-4fa45640dd4b
+">
+      <summary>V3 Labor</summary>
+      <img src="https://github.com/user-attachments/assets/dc8d49b3-d542-42b6-be1f-a171d2887f90
+">
+    </details>
+</details>
 
 ## Következtetések
 - A mérések alapján az Ikusi Flash HD C48 teljesít a legjobban a vizsgált vételi pontokon. 
