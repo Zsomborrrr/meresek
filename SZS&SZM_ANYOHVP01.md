@@ -28,10 +28,47 @@ Antennák nyereségének összehasonlítása három vételi ponton
 |       3. emelet      | -55dBm          | -56dBm            | -56dBm                   |
 |       Hátsó udvar    | -59dBm          | -57dBm            | -51dBm                   |
 
-## Értékelés
-- **Iskra P20**: 
-- **Iskra P2845**:  
-- **Ikusi Flash HD C48**: 
+### Az antennák értékelése:
+
+#### 1. **Iskra P20**:
+- **Előnyök:**
+  - A **3. emeleti** mérések során kiemelkedően teljesített (-55 dBm), ugyanazt az értéket érte el, mint az Ikusi, de 1 dB-lel jobban, mint a másik Iskra modell.
+- **Hátrányok:**
+  - A **V3 Laborban** és a **Hátsó udvaron** nyújtott teljesítménye alacsonyabb volt a többi antennához képest, különösen az Ikusi antennához viszonyítva (-68 dBm és -59 dBm).
+- **Összegzés:**
+  - Közepes teljesítményű antenna, amely helyszínspecifikusan (3. emelet) jól működhet, de más helyszíneken jelentős hátrányba kerül.
+
+---
+
+#### 2. **Iskra P2845**:
+- **Előnyök:**
+  - A teljesítmény minden helyszínen hasonló volt, stabil, de nem kiemelkedő (-69 dBm, -56 dBm, -57 dBm). 
+  - A **Hátsó udvaron** kicsivel jobban teljesített, mint a P20.
+- **Hátrányok:**
+  - Az Ikusi antennához viszonyítva minden helyszínen gyengébben teljesített.
+- **Összegzés:**
+  - Stabil, de átlagos teljesítményt nyújtó antenna, amely nem kiemelkedő, de bizonyos körülmények között megbízható lehet.
+
+---
+
+#### 3. **Ikusi Flash HD C48**:
+- **Előnyök:**
+  - Minden helyszínen a legjobb eredményeket érte el:  
+    - **V3 Labor:** -55 dBm (13-14 dB-lel jobb, mint az Iskra antennák).  
+    - **Hátsó udvar:** -51 dBm (6 dB-lel jobb, mint a második legjobb).  
+  - Kiváló nyereség a tesztelt körülmények között.
+- **Hátrányok:**
+  - A **3. emeleti** mérések alapján nem mutatott jelentős előnyt az Iskra antennákkal szemben, holtversenyben végzett (-56 dBm).
+- **Összegzés:**
+  - Kimagasló teljesítményű antenna, különösen nagy nyereséggel működik a laboratóriumi és kültéri tesztkörnyezetben.
+
+---
+
+### Összefoglaló értékelés:
+Az Ikusi Flash HD C48 egyértelműen a legjobb teljesítményt nyújtotta a mérések alapján. Az Iskra P20 helyspecifikusan (3. emelet) versenyképes, de általánosan elmarad a többiektől. Az Iskra P2845 kiegyensúlyozott, de átlagos eredményeivel a középmezőnyben marad.
+
+### Javaslat:
+Az Ikusi Flash HD C48 az elsődleges választás, ha a vételi teljesítmény maximalizálása a cél. További mérések ajánlottak különböző frekvenciasávokon és időjárási viszonyok között az eredmények finomhangolására.
 
 ## Képek a méréskhez
 <details>
