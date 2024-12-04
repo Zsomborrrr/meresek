@@ -29,9 +29,9 @@ Antennák nyereségének összehasonlítása három vételi ponton
 |       Hátsó udvar    | -59dBm          | -57dBm            | -51dBm                   |
 
 ## Értékelés
-- **Iskra P20**: [Rövid értékelés, például: "Stabil teljesítményt nyújtott a távolság növekedésével."]  
-- **Iskra P2845**: [Rövid értékelés, például: "Kiemelkedő jelerősség rövid távon, de csökkenés nagyobb távolság esetén."]  
-- **Ikusi Flash HD C48**: [Rövid értékelés, például: "Kiválóan szerepelt hosszabb távolságon is."]
+- **Iskra P20**: 
+- **Iskra P2845**:  
+- **Ikusi Flash HD C48**: 
 
 ## Képek a méréskhez
 <details>
