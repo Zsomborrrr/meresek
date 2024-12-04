@@ -38,14 +38,15 @@ Antennák nyereségének összehasonlítása három vételi ponton
   <summary>Iskra P20</summary>
     <details>
       <summary>3. Emelete</summary>
-      <img src="https://github.com/user-attachments/assets/3f91e18c-e991-4fce-93c5-46097b480ef1
-">
-      <summary>Udvar</summary>
-      <img src="https://github.com/user-attachments/assets/697546da-2476-4dc9-8243-4fa45640dd4b
-">
+      <img src="https://github.com/user-attachments/assets/3f91e18c-e991-4fce-93c5-46097b480ef1">
+    </details>
+    <details>
+       <summary>Udvar</summary>
+      <img src="https://github.com/user-attachments/assets/697546da-2476-4dc9-8243-4fa45640dd4b">
+    </details>
+    <details>
       <summary>V3 Labor</summary>
-      <img src="https://github.com/user-attachments/assets/dc8d49b3-d542-42b6-be1f-a171d2887f90
-">
+      <img src="https://github.com/user-attachments/assets/dc8d49b3-d542-42b6-be1f-a171d2887f90">
     </details>
 </details>
 
