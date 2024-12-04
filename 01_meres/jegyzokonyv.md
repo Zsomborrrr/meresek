@@ -1,4 +1,10 @@
 # Sándor Zsombor
 
-KÉP:
+<details>
+  <summary>Nyisd le a képért!</summary>
+  <img src="https://github.com/user-attachments/assets/da4a645c-e9cc-46fb-a4bd-f743c6c32bb6">
+</details>
+
+
+
 ![kicsi udvar](https://github.com/user-attachments/assets/da4a645c-e9cc-46fb-a4bd-f743c6c32bb6)
