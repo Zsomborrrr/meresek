@@ -50,6 +50,38 @@ Antennák nyereségének összehasonlítása három vételi ponton
     </details>
 </details>
 
+<details>
+  <summary>Iskra P2845</summary>
+    <details>
+      <summary>3. Emelete</summary>
+      <img src="https://github.com/user-attachments/assets/00a4d87f-38ab-4810-a12d-071b6fb5f7c7">
+    </details>
+    <details>
+       <summary>Udvar</summary>
+      <img src="https://github.com/user-attachments/assets/4697d423-915e-4a0f-afc0-3fca002e3664">
+    </details>
+    <details>
+      <summary>V3 Labor</summary>
+      <img src="https://github.com/user-attachments/assets/68f2afc4-0306-4520-8c24-0b7b5cab673e">
+    </details>
+</details>
+
+<details>
+  <summary>Ikusi Flash HD C48</summary>
+    <details>
+      <summary>3. Emelete</summary>
+      <img src="https://github.com/user-attachments/assets/dc1f268f-374a-42b8-ab9f-6f2f61b07a90">
+    </details>
+    <details>
+       <summary>Udvar</summary>
+      <img src="https://github.com/user-attachments/assets/7cdad3fd-7ba3-48e6-86ec-ecfdb2ac35c6">
+    </details>
+    <details>
+      <summary>V3 Labor</summary>
+      <img src="https://github.com/user-attachments/assets/91d976f7-932c-4539-b698-6944b0eecd43">
+    </details>
+</details>
+
 ## Következtetések
 - A mérések alapján az Ikusi Flash HD C48 teljesít a legjobban a vizsgált vételi pontokon. 
 - Azonban meglepő módon, a 3. emeleten nem az Ikusi hanem a P20as antenna teljesített a legjobban.
