@@ -24,9 +24,9 @@ Antennák nyereségének összehasonlítása három vételi ponton
 ## Vételi pontok és mért adatok
 |      Vételi pont     | Iskra P20 (dBm) | Iskra P2845 (dBm) | Ikusi Flash HD C48 (dBm) |
 |----------------------|-----------------|-------------------|--------------------------|
-| 1.    V3 Labor       | -68dBm          | -69dBm            | -55dBm                   |
-| 2.    3. emelet      | -55dBm          | -56dBm            | -56dBm                   |
-| 3.    Hátsó udvar    | -59dBm          | -57dBm            | -51dBm                   |
+|       V3 Labor       | -68dBm          | -69dBm            | -55dBm                   |
+|       3. emelet      | -55dBm          | -56dBm            | -56dBm                   |
+|       Hátsó udvar    | -59dBm          | -57dBm            | -51dBm                   |
 
 ## Értékelés
 - **Iskra P20**: [Rövid értékelés, például: "Stabil teljesítményt nyújtott a távolság növekedésével."]  
