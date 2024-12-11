@@ -126,4 +126,4 @@ A Johansson 8202 DVB-T modulátor többcsatornás képességeinek megismerése, 
 - Az RF frekvenciák közötti interferencia elemzése.
 
 **Készítette:**
-(Dátum, Név)
+(2024.12.11., Sándor Zsombor)
