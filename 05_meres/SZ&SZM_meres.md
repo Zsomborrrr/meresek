@@ -1,6 +1,6 @@
-**Mérési Jegyzőkönyv**
+## Mérési Jegyzőkönyv
 
-<<<<<<< HEAD
+
 **Mérési Feladat:**
 A különböző bitsebességek hatásának vizsgálata a jelminőségre.
 
