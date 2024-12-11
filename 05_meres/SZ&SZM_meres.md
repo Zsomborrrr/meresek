@@ -1,5 +1,6 @@
 **Mérési Jegyzőkönyv**
 
+<<<<<<< HEAD
 **Mérési Feladat:**
 A különböző bitsebességek hatásának vizsgálata a jelminőségre.
 
@@ -54,7 +55,7 @@ A Johansson 8202 DVB-T modulátor többcsatornás képességeinek megismerése, 
 | Mérés 3          | 682                 | TV2          | Max                | -22.3          | 38.6           |
 
 ---
-## Képek a méréskhez
+**Képek a méréskhez**
 <details>
   <summary>TV1</summary>
     <details>
@@ -126,4 +127,3 @@ A Johansson 8202 DVB-T modulátor többcsatornás képességeinek megismerése, 
 
 **Készítette:**
 (Dátum, Név)
-
