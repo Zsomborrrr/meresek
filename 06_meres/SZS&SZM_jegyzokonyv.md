@@ -45,33 +45,33 @@ A mérés során különböző típusú antennák (ISKRA P20 LOGPER, ISKRA P2845
         <summary>ISKRA P20 LOGPER</summary>
             <details>
                 <summary>TV</summary>
-                <img src="">
+                <img src="https://github.com/user-attachments/assets/00845857-6386-42c3-a273-853ac2b1d3c5">
             </details>
             <details>
                 <summary>Meter</summary>
-                <img src="">
+                <img src="https://github.com/user-attachments/assets/88733028-5917-4779-8228-038403afca8c">
             </details>
         </details>
         <details>
         <summary>ISKRA P2845</summary>
             <details>
                 <summary>TV</summary>
-                <img src="">
+                <img src="https://github.com/user-attachments/assets/d50406b5-bff0-4452-bb8a-1f40d3490795">
             </details>
             <details>
                 <summary>Meter</summary>
-                <img src="">
+                <img src="https://github.com/user-attachments/assets/ace0feb5-ea8a-463c-9ea4-8b88b96ea3ba">
             </details>
         </details>
             <details>
         <summary>IKUSI FLASHD C48</summary>
             <details>
                 <summary>TV</summary>
-                <img src="">
+                <img src="https://github.com/user-attachments/assets/4052a4fd-8488-4a82-a427-877e30769947">
             </details>
             <details>
                 <summary>Meter</summary>
-                <img src="">
+                <img src="https://github.com/user-attachments/assets/f3e84078-2949-449e-a263-7c94c61720a7">
             </details>
         </details>
 </details>
@@ -82,33 +82,33 @@ A mérés során különböző típusú antennák (ISKRA P20 LOGPER, ISKRA P2845
       <summary>ISKRA P20 LOGPER</summary>
         <details>
             <summary>TV</summary>
-            <img src="">
+            <img src="https://github.com/user-attachments/assets/0b5edaea-f6a9-4fff-b05c-303b28621623">
         </details>
         <details>
             <summary>Meter</summary>
-            <img src="">
+            <img src="https://github.com/user-attachments/assets/a47a6b8d-0f40-4a9f-92ad-eeeaa4db4fdf">
         </details>
     </details>
     <details>
       <summary>ISKRA P2845</summary>
         <details>
             <summary>TV</summary>
-            <img src="">
+            <img src="https://github.com/user-attachments/assets/2113e12e-7198-4857-b0f3-c634f13c36e1">
         </details>
         <details>
             <summary>Meter</summary>
-            <img src="">
+            <img src="https://github.com/user-attachments/assets/b29177cc-10f2-460c-b3ae-d4bc293d65b9">
         </details>
     </details>
         <details>
       <summary>IKUSI FLASHD C48</summary>
         <details>
             <summary>TV</summary>
-            <img src="">
+            <img src="https://github.com/user-attachments/assets/c278bd77-07c1-4c42-b203-53e75d098de7">
         </details>
         <details>
             <summary>Meter</summary>
-            <img src="">
+            <img src="https://github.com/user-attachments/assets/8e941de2-7dd0-4137-9b47-b627557ac762">
         </details>
     </details>
 </details>
