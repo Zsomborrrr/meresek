@@ -84,7 +84,7 @@ Szimulátorban mért eredmények:
     </details>
     <details>
       <summary>Valóságos Grafikon</summary>
-      <img src="(https://github.com/user-attachments/assets/38523ee9-db2a-44c5-a416-678893c90512">
+      <img src="https://github.com/user-attachments/assets/38523ee9-db2a-44c5-a416-678893c90512">
     </details>
     <details>
       <summary>Szimulátor Grafikon</summary>
