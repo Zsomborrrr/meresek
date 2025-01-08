@@ -72,23 +72,23 @@ Szimulátorban mért eredmények:
   <summary>Képek</summary>
     <details>
       <summary>1</summary>
-      <img src="">
+      <img src="https://github.com/user-attachments/assets/670381f5-1586-4e82-b81d-d2570f7f2ef6">
     </details>
     <details>
        <summary>2</summary>
-      <img src="">
+      <img src="https://github.com/user-attachments/assets/e4d056df-9a72-4caa-8a8d-96aed0a157f3">
     </details>
     <details>
-      <summary>3</summary>
-      <img src="">
+      <summary>Falstad</summary>
+      <img src="https://github.com/user-attachments/assets/7125b3d1-99af-45c5-b186-3b5fe991df44">
     </details>
     <details>
       <summary>Valóságos Grafikon</summary>
-      <img src="">
+      <img src="(https://github.com/user-attachments/assets/38523ee9-db2a-44c5-a416-678893c90512">
     </details>
     <details>
       <summary>Szimulátor Grafikon</summary>
-      <img src="">
+      <img src="https://github.com/user-attachments/assets/002936e8-53cf-45bc-8755-0372fdb675bc">
     </details>
 </details>
 
