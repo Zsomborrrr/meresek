@@ -67,6 +67,33 @@ Szimulátorban mért eredmények:
 
 ---
 
+## Képek a méréskhez
+<details>
+  <summary>Képek</summary>
+    <details>
+      <summary>1</summary>
+      <img src="">
+    </details>
+    <details>
+       <summary>2</summary>
+      <img src="">
+    </details>
+    <details>
+      <summary>3</summary>
+      <img src="">
+    </details>
+    <details>
+      <summary>Valóságos Grafikon</summary>
+      <img src="">
+    </details>
+    <details>
+      <summary>Szimulátor Grafikon</summary>
+      <img src="">
+    </details>
+</details>
+
+---
+
 ### **Megjegyzések**
 
 - Az eredmények pontosságának biztosítása érdekében minden mérést háromszor ismételjünk meg.
