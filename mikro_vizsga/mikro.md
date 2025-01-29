@@ -18,8 +18,8 @@
 
 ### **1.2. Hálózati topológia tervezése**
 
-- Hálózati diagram elkészítve? (**Igen / Nem**)
-- IP-címek megfelelő kiosztása megtörtént? (**Igen / Nem**)
+- Hálózati diagram elkészítve.
+- IP-címek megfelelő kiosztása megtörtént.
 
 ---
 
@@ -29,7 +29,7 @@
 
 - Antenna elérhetősége: **http://192.168.188.1**
 - IP-cím beállítva: **192.168.88.1**
-- DHCP szerver beállítva? (**Igen / Nem**)
+- DHCP szerver beállítva.
 - Kapott nyilvános IP-cím: **[IP-cím]**
 - Jelerősségi paraméterek:
   - **RSRP:** [érték]
@@ -39,19 +39,18 @@
 
 ### **2.2. Mikrotik nRay 60GHz antennapár beállítása**
 
-- **Master antenna (192.168.88.2)** beállítva? (**Igen / Nem**)
-- **Slave antenna (192.168.88.3)** beállítva? (**Igen / Nem**)
-- Kapcsolat létrejött? (**Igen / Nem**)
+- **Master antenna (192.168.88.2)**
+- **Slave antenna (192.168.88.3)**
+- Kapcsolat létrejött.
 - **Jelminőségi paraméterek:**
   - Kapcsolat erőssége: [érték]
-  - WIRELESS 60G STATUS képernyőkép csatolva? (**Igen / Nem**)
 
 ### **2.3. SOHO router beállítása AP módban**
 
 - Router IP-címe: **192.168.88.4**
 - WiFi SSID: **GazdaXX**
 - WiFi jelszó: **G1234567**
-- AP mód beállítva? (**Igen / Nem**)
+- AP mód beállítva.
 
 ---
 
@@ -64,19 +63,18 @@
   - **192.168.88.2:** [ms]
   - **192.168.88.3:** [ms]
   - **192.168.88.4:** [ms]
-- Csomagvesztés tapasztalható? (**Igen / Nem**)
+- Csomagvesztés nem tapasztalható.
 
 ### **3.2. Sávszélesség mérése (iperf)**
 
 - **Szerver oldali teszt:**  
   - Parancs: `iperf3 -s`
-  - Működés: (**Igen / Nem**)
 
 - **Kliens oldali teszt:**  
   - Parancs: `iperf3 -c 192.168.88.xxx`
   - Mérési eredmények (Mbps): **[eredmény]**
 
-- **Hálózati felderítés engedélyezve?** (**Igen / Nem**)
+- **Hálózati felderítés engedélyezve.**
 
 - **Speedtest eredmény:**  
   - Letöltési sebesség: **[Mbps]**
@@ -87,9 +85,8 @@
 
 ## **4. Dokumentáció és Értékelés**
 
-- Hálózati forgalom monitorozása elvégezve? (**Igen / Nem**)
-- Hibakeresés dokumentálva? (**Igen / Nem**)
-- Képernyőképek csatolva? (**Igen / Nem**)
+- Hálózati forgalom monitorozása elvégezve.
+- Hibakeresés dokumentálva.
 - Dokumentáció összegzése:
   - **Hálózati topológia:** [Melléklet]
   - **Beállítások:** [Részletek]
