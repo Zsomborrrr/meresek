@@ -2,9 +2,9 @@
 **Távkozlési Technikus Vizsgafeladat**  
 
 **Vizsgázó neve:** Sándor Zsombor
-**Dátum:** [Dátum]  
-**Helyszín:** [Helyszín]  
-**Vizsgabizottság tagjai:** [Nevek]  
+**Dátum:** 2025.01.29.
+**Helyszín:** Labor 
+**Vizsgabizottság tagjai:** Sándor Péter  
 
 ---
 
@@ -12,9 +12,9 @@
 
 ### **1.1. Eszközök gyári visszaállítása**
 
-- **Mikrotik LHG18 LTE antenna:** Gyári visszaállítás sikeres? (**Igen / Nem**)
-- **Mikrotik nRay 60GHz antennák:** Mindkét eszköz visszaállítása sikeres? (**Igen / Nem**)
-- **SOHO router:** Gyári visszaállítás elvégezve? (**Igen / Nem**)
+- **Mikrotik LHG18 LTE antenna:** Gyári visszaállítás sikeres.
+- **Mikrotik nRay 60GHz antennák:** Mindkét eszköz visszaállítása sikeres.
+- **SOHO router:** Gyári visszaállítás elvégezve.
 
 ### **1.2. Hálózati topológia tervezése**
 
