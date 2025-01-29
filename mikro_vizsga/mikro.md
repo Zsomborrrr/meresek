@@ -30,12 +30,12 @@
 - Antenna elérhetősége: **http://192.168.188.1**
 - IP-cím beállítva: **192.168.88.1**
 - DHCP szerver beállítva.
-- Kapott nyilvános IP-cím: **[IP-cím]**
+- Kapott nyilvános IP-cím: **10.169.251.191**
 - Jelerősségi paraméterek:
-  - **RSRP:** [érték]
-  - **RSRQ:** [érték]
-  - **SINR:** [érték]
-  - **RSSI:** [érték]
+  - **RSRP:** -81 dBm
+  - **RSRQ:** -10 dB
+  - **SINR:** -18 dB
+  - **RSSI:** -54 dBm
 
 ### **2.2. Mikrotik nRay 60GHz antennapár beállítása**
 
