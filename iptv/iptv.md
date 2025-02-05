@@ -84,8 +84,8 @@
 - Router lan iptv proxy - 8888
 - Letöltési fel/sebesség - 93.46Mbps
 
-- Lan 1 - lemco control 1Gbps
-- Lan 2 - üres
+- - Lan 1 - lemco control 1Gbps
+- - Lan 2 - üres
 - Lan 3 - lemco ip stream 1Gbps
 - Lan 4 - set top box 100Mbps
 
