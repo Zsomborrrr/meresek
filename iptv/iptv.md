@@ -73,9 +73,9 @@
 </details>
 
 
-- Lemco ip - 192.168.1.200
-- Lemco login - admin 12345
-- Lemco iptv stream - 239.1.1.1-39
+    - Lemco ip - 192.168.1.200
+    - Lemco login - admin 12345
+    - Lemco iptv stream - 239.1.1.1-39
 
 ### **4.4 Router rendszer beállítás**
 - Router elérése - 192.168.50.1 --> 192.168.1.1
@@ -84,10 +84,10 @@
 - Router lan iptv proxy - 8888
 - Letöltési fel/sebesség - 93.46Mbps
 
-- - Lan 1 - lemco control 1Gbps
-- - Lan 2 - üres
-- Lan 3 - lemco ip stream 1Gbps
-- Lan 4 - set top box 100Mbps
+    - Lan 1 - lemco control 1Gbps
+    - Lan 2 - üres
+    - Lan 3 - lemco ip stream 1Gbps
+    - Lan 4 - set top box 100Mbps
 
 - VLC elérési cím: http://192.168.1.1:8888/udp/239.1.1.1:1234
 
