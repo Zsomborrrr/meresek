@@ -28,7 +28,7 @@
 - Rögzítés módja: Antenna álvány
 - Adótorony: Miskolc, Avasi adótorony
 - Antenna iránya: Horizontális Dél-Nyugat 233fok
-- A miskolc városi tvre hangoljuk az adást mert ez adja a leggyengébb jelet és ha ez jó az összestöbbi is jó lesz.
+- A miskolc városi TVre hangoljuk az adást mert ez adja a leggyengébb jelet és ha ez jó az összestöbbi is jó lesz.
 
 ### **4.2 Jelszintmérés az antennánál**
 | Paraméter | Érték |
@@ -37,11 +37,19 @@
 | Modulation Error Ratio (MER - dB) | 16.7 |
 | Polarizáció | Horizontális 
 
+#### **Mérési képek:**
+
+
+
 ### **4.3 Fejállomás konfiguráció**
 - Input1 - Multiplex B, ch35
 - Input2 - Miskolci Városi TV, ch41
 - Input3 - Multiplex A, ch45
 - Input4 - Multiplex E, ch48
+
+#### **Adat képek:**
+
+
 
 - Lemco ip - 192.168.1.200
 - Lemco login - admin 12345
@@ -61,7 +69,18 @@
 
 - VLC elérési cím: http://192.168.1.1:8888/udp/239.1.1.1:1234
 
-### **4.5 IPTV stream ellenőrzése**
+### **4.5 IPTV Stream és Multicast konfigurálás**
+- Multicast IP tartomány: 239.1.1.1-39
+- Multicast port: 1234
+
+### **4.6 IPTV stream ellenőrzése**
+
+#### **Képek:**
+
+
+
+### **Összegzés:**
+
 
 
 ---
