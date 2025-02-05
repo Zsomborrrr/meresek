@@ -43,15 +43,15 @@
 
 <details>
     <summary>Spektrum</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/5fbf7610-f070-4dfc-b502-3c9d7abe81b8" width="640" height="360">
 </details>
 <details>
     <summary>TV</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/ac667c96-8e30-4460-8efd-867a3bbb25e6" width="640" height="360">
 </details>
 <details>
     <summary>Meter</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/17246ed4-1af6-44ec-9e7f-cd822794d85f" width="640" height="360">
 </details>
 
 
@@ -64,12 +64,12 @@
 #### **Adat képek:**
 <details>
     <summary>Lemco Portok</summary>
-    <img src="" width="640" height="360">
-    <img src="" width="360" height="640">
+    <img src="https://github.com/user-attachments/assets/db7434d3-1634-4cc4-8a22-19d67e99b072" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/31428b5b-1575-438d-92c2-0be50296328c" width="360" height="640">
 </details>
 <details>
     <summary>Miskolci adók</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/02311e84-efb3-426e-82f4-5ee4a8d62bd5" width="640" height="360">
 </details>
 
 
@@ -98,7 +98,7 @@
 #### **Képek:**
 <details>
     <summary>Leterheltség</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/f66f37ce-80c0-46b0-acb5-818d8febd2db" width="640" height="360">
 </details>
 
 ### **4.6 IPTV stream ellenőrzése**
@@ -106,12 +106,12 @@
 #### **Képek:**
 <details>
     <summary>CMD mérés</summary>
-    <img src="" width="640" height="540">
+    <img src="https://github.com/user-attachments/assets/c7409d28-7263-465e-b638-aa9c0c147d36" width="640" height="540">
 </details>
 <details>
     <summary>Vlc adatok</summary>
-    <img src="" width="360" height="640">
-    <img src="" width="360" height="640">
+    <img src="https://github.com/user-attachments/assets/bdd7856a-58e8-46ac-a85f-474bd7809db5" width="360" height="640">
+    <img src="https://github.com/user-attachments/assets/9e6321ef-ed26-4288-838b-f66275b24c82" width="360" height="640">
 </details>
 
 
