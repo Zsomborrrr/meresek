@@ -82,7 +82,7 @@
 
 
 ### **Összegzés:**
-
+Miután összeszereltük a hálózatot a megfelelő kábeleket használva, majd első sorban a routert aztán a fejállomást is bekonfiguráltuk, ezek után rátérhettünk a Set Top Box beállítására. Mikor befejeztük az összes eszköz testreszabását, a STB-re HDMI kábellel csatlakoztatott monitor segítségével láthattuk, hogy jól működik a hálózatunk. Ezek után a labortásaim segítségével ellenőriztük, hogy Ők is képesek venni az adást a VLC segítségével. A feladat elvégézést sikeresnek tekintem.
 
 
 ---
