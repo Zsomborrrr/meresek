@@ -18,7 +18,7 @@
 - Fejállomás: LEMCO SCL-824CT
 - Set-top box: MAG IPTV
 - Router: IGMP protokollt támogató és DHCP képes router (Asus router)
-- Mérőműszer: METEK HDD digitális TV jelmérő
+- Mérőműszer: METEK HDD
 - Kábelezés: Koaxiális és UTP kábelek
 
 **4. Mérések és beállítások:**
@@ -36,6 +36,8 @@
 | Jelerősség (dBμV) | 38.1 |
 | Modulation Error Ratio (MER - dB) | 16.7 |
 | Polarizáció | Horizontális 
+
+- Lock állapot aktív.
 
 #### **Mérési képek:**
 
