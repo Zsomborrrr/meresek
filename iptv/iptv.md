@@ -79,7 +79,7 @@
 
 <details>
     <summary>IPTV kiosztás</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/81f86454-ac1f-48c8-96e7-0df82be1ad32" width="640" height="360">
 </details>
 
 ### **4.4 Router rendszer beállítás**
