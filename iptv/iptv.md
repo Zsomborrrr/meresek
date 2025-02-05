@@ -43,15 +43,15 @@
 
 <details>
     <summary>Spektrum</summary>
-    <img src="" width="960" height="540">
+    <img src="" width="640" height="360">
 </details>
 <details>
     <summary>TV</summary>
-    <img src="" width="960" height="540">
+    <img src="" width="640" height="360">
 </details>
 <details>
     <summary>Meter</summary>
-    <img src="" width="960" height="540">
+    <img src="" width="640" height="360">
 </details>
 
 
@@ -64,12 +64,12 @@
 #### **Adat képek:**
 <details>
     <summary>Lemco Portok</summary>
-    <img src="" width="960" height="540">
-    <img src="" width="540" height="960">
+    <img src="" width="640" height="360">
+    <img src="" width="360" height="640">
 </details>
 <details>
     <summary>Miskolci adók</summary>
-    <img src="" width="960" height="540">
+    <img src="" width="640" height="360">
 </details>
 
 
@@ -98,7 +98,7 @@
 #### **Képek:**
 <details>
     <summary>Leterheltség</summary>
-    <img src="" width="960" height="540">
+    <img src="" width="640" height="360">
 </details>
 
 ### **4.6 IPTV stream ellenőrzése**
@@ -106,12 +106,12 @@
 #### **Képek:**
 <details>
     <summary>CMD mérés</summary>
-    <img src="" width="960" height="540">
+    <img src="" width="640" height="540">
 </details>
 <details>
     <summary>Vlc adatok</summary>
-    <img src="" width="540" height="960">
-    <img src="" width="540" height="960">
+    <img src="" width="360" height="640">
+    <img src="" width="360" height="640">
 </details>
 
 
