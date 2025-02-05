@@ -73,9 +73,9 @@
 </details>
 
 
-    - Lemco ip - 192.168.1.200
-    - Lemco login - admin 12345
-    - Lemco iptv stream - 239.1.1.1-39
+- Lemco ip - 192.168.1.200
+- Lemco login - admin 12345
+- Lemco iptv stream - 239.1.1.1-39
 
 ### **4.4 Router rendszer beállítás**
 - Router elérése - 192.168.50.1 --> 192.168.1.1
