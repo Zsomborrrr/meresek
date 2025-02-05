@@ -41,6 +41,18 @@
 
 #### **Mérési képek:**
 
+<details>
+    <summary>Spektrum</summary>
+    <img src="" width="960" height="540">
+</details>
+<details>
+    <summary>TV</summary>
+    <img src="" width="960" height="540">
+</details>
+<details>
+    <summary>Meter</summary>
+    <img src="" width="960" height="540">
+</details>
 
 
 ### **4.3 Fejállomás konfiguráció**
@@ -50,7 +62,15 @@
 - Input4 - Multiplex E, ch48
 
 #### **Adat képek:**
-
+<details>
+    <summary>Lemco Portok</summary>
+    <img src="" width="960" height="540">
+    <img src="" width="540" height="960">
+</details>
+<details>
+    <summary>Miskolci adók</summary>
+    <img src="" width="960" height="540">
+</details>
 
 
 - Lemco ip - 192.168.1.200
@@ -75,10 +95,24 @@
 - Multicast IP tartomány: 239.1.1.1-39
 - Multicast port: 1234
 
+#### **Képek:**
+<details>
+    <summary>Leterheltség</summary>
+    <img src="" width="960" height="540">
+</details>
+
 ### **4.6 IPTV stream ellenőrzése**
 
 #### **Képek:**
-
+<details>
+    <summary>CMD mérés</summary>
+    <img src="" width="960" height="540">
+</details>
+<details>
+    <summary>Vlc adatok</summary>
+    <img src="" width="540" height="960">
+    <img src="" width="540" height="960">
+</details>
 
 
 ### **Összegzés:**
