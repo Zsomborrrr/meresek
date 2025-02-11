@@ -78,6 +78,17 @@ Az adatok kigyűjtése után, már lehetőségünk lett, hogy összehasonlítsuk
     <img src="" width="640" height="360">
 </details>
 
+Valamint méréseket végeztünk, miközben a polarizációt forgattuk. Ezeknek az adatait is kigyűjtöttük.
+
+| Csillapítás (dB) | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
+|----------------|------|------|------|------|------|------|------|
+| Mért bejövőszint (dBm) | -72,6 | -73,8 | -72,4 | -75,6 | -74,5 | -73,3 | -74,3 |
+| Mért feszültség (V) | 0,54 | 0,37 | 0,16 | 0,11 | 0,40 | 0,43 | 0,47 |
+| Leolvasott moduláció TX | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM |
+| Leolvasott moduláció RX | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM |
+
+Látható, hogy a feszültség csökkenése összefügg a bejövő jelszint változásaival. Mind két moduláció minden esetben tarjta az értékét, ami azt jelzi, hogy az adási moduláció stabilan tartja ezt a szintet. Összegzésként elmondható, hogy az adatok viszonylag stabil rendszert mutatnak, ahol a csillapítás állandó, de a bejövőszint és a feszültség enyhe változásokat mutat. Az adóoldali moduláció magasabb (128QAM), míg a vevőoldali alacsonyabb (64QAM), ami valószínűleg a csillapítás és a jelszint hatásának tudható be.
+
 ***5.4 valami:***
 
 
@@ -85,9 +96,6 @@ Az adatok kigyűjtése után, már lehetőségünk lett, hogy összehasonlítsuk
 
 
 ***5.6 valami:***
-
-
-***5.7 valami:***
 
 
  **6. Összegzés:**
