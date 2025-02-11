@@ -131,5 +131,4 @@ Az adóoldali moduláció (TX) magasabb szinten maradt (128QAM), míg a vevőold
 
 Az elkészítési folyamat során remeük éreztem magam. Az első pillanattól kezdve az utolsóig nagyon jól működött közöttem és a Labor Társam között a munka. A feladatot sikeresnek tekinthetjük, mivel minden részt amit meg szerettünk volna mérni vagy esetleg csak nézni az sikeresen elvégeztük.
 
-
 ---
