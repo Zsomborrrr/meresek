@@ -28,3 +28,23 @@
 - ETS-1000L Ethernet Loopback
 
 **5. Mérések és beállítások:**
+
+***5.1. valami:***
+
+
+
+***5.1. valami:***
+***5.1. valami:***
+***5.1. valami:***
+***5.1. valami:***
+***5.1. valami:***
+
+***5.1. valami:***
+
+
+
+**6. Összegzés:**
+
+
+
+***6.1. Reflexió:***
