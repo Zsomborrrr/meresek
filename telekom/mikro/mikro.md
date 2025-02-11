@@ -109,13 +109,6 @@ Miután a valós feladatunkat elvégeztük, kiváncsiság céljából megmértü
     <img src="" width="640" height="360">
 </details>
 
-
-***5.5 valami:***
-
-
-***5.6 valami:***
-
-
  **6. Összegzés:**
 
 
