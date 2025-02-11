@@ -32,6 +32,7 @@ A feladat célja, hogy modellezük és megmérjük egy mikró szakasz rádiós p
 ***5.1 összekötés:***
 Első sorban a beltéri egységeinket a tápegységgel összekötöttük és bekapcsoltuk azokat. 
 Majd ezek után koax kábellel összekötöttük a mikrókat a beltéri eszközökkel.
+Mind ezekmellett duplex összeköttetést használtunk.
 A laptopot DHCP-be állítottuk, és Ethernet kábellel az eszköz LCT portjára csatlakoztunk.
 Majd egy webböngészővel beléptünk a konfigurációs felületre az alábbi IP segítségével: 
 http://172.17.254.253
@@ -44,9 +45,10 @@ Jelszó: 12345678
 Ahhoz, hogy legyen rádiós összekötettésünk, az alap rádiós paramétereket be kellett állítani.
 - Channel Spacing: 28 MHz
 - Referenc Modulation: QPSK
-- TX frekvenci: 25808 MHz
-- TX power control: MTPC (Manual Transmission Power Control) 
+- TX Frekvencia: 25808 MHz
+- TX Power Control: MTPC (Manual Transmission Power Control) 
 Ha ez nincs beállítva akkor automatikusan növeli az adót és emiatt nem tudunk a csillapítással mérni.
+- TX Power: 0 dBm (1 mW)
 - AMR moduláció: QPSK, 16QAM, 32QAM, 64QAM, 128QAM, 256QAM
 Ezzel állítottuk be, hogy QPSK és 256QAM között bármilyen modulációt felvehet, annak érdekében, hogy ne szakadjon meg.
 
