@@ -14,7 +14,7 @@
 - Név: Sándor Zsombor
 
 **3. Feladat leírása:**
-
+A feladat célja, hogy modellezük és megmérjük egy mikró szakasz rádiós paramétereit, különböző csillapításoknál. Majd mért eredményeink összehasonlítása, az ideális adatokkal. Mind ezt labor körülmények közötti kivitelezésben.
 
 **4. Sükséges eszközök:**  
 
