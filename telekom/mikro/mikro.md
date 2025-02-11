@@ -123,10 +123,13 @@ Miután a valós feladatunkat elvégeztük, kiváncsiság céljából megmértü
 
 **6. Összegzés:**
 
+A mérési eredmények alapján megállapítható, hogy a moduláció 60 dB csillapításig stabil maradt, de afelett fokozatosan csökkent, míg végül 70 dB-nél QPSK-ra váltott, jelezve a jelminőség romlását. A beérkező jelszint és a mért feszültség is arányosan csökkent a csillapítás növekedésével. A polarizáció változtatásakor is hasonló trend figyelhető meg, tehát a csillapítás közvetlen hatással van a jelszintre és a feszültségre.
 
+Az adóoldali moduláció (TX) magasabb szinten maradt (128QAM), míg a vevőoldali moduláció (RX) alacsonyabb (64QAM), ami arra utal, hogy a vevőoldalon nagyobb a csillapítás hatása. A rendszer a csillapítás növekedésére adaptív modulációval reagált, így a kapcsolat 70 dB-ig még fennmaradt, de ezen a határon túl már nem volt fenntartható. Végül, ha a jel szintje -90 dBm alá csökkent, az összeköttetés teljesen megszűnt.
 
 ***6.1. Reflexió:***
 
+Az elkészítési folyamat során remeük éreztem magam. Az első pillanattól kezdve az utolsóig nagyon jól működött közöttem és a Labor Társam között a munka. A feladatot sikeresnek tekinthetjük, mivel minden részt amit meg szerettünk volna mérni vagy esetleg csak nézni az sikeresen elvégeztük.
 
 
 ---
