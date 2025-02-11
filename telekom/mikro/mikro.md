@@ -20,6 +20,8 @@
 - Metex Digitális Multiméter
 - Fix 20dB-el csillapító
 - You Hewlett Packard állítható csillapít 0-70dB, 10dB-es léptékkel (Működési tartománya DC 26,5GHz)
+- UTP és Koaxiális kábelek
+- HP céges laptop
 
 **4. Mérések és beállítások:**
 
