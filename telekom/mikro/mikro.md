@@ -30,16 +30,12 @@ A feladat célja, hogy modellezük és megmérjük egy mikró szakasz rádiós p
 **5. Mérések és beállítások:**
 
 ***5.1 összekötés:***
-Első sorban a beltéri egységeinket a tápegységgel összekötöttük és bekapcsoltuk azokat. 
-Majd ezek után koax kábellel összekötöttük a mikrókat a beltéri eszközökkel.
-Mind ezekmellett duplex összeköttetést használtunk.
-A laptopot DHCP-be állítottuk, és Ethernet kábellel az eszköz LCT portjára csatlakoztunk.
-Majd egy webböngészővel beléptünk a konfigurációs felületre az alábbi IP segítségével: 
-http://172.17.254.253
+Első sorban a beltéri egységeinket a tápegységgel összekötöttük és bekapcsoltuk azokat. Majd ezek után koax kábellel összekötöttük a mikrókat a beltéri eszközökkel. Mind ezekmellett duplex összeköttetést használtunk. A laptopot DHCP-be állítottuk, és Ethernet kábellel az eszköz LCT portjára csatlakoztunk. Majd egy webböngészővel beléptünk a konfigurációs felületre az alábbi IP segítségével: 
+- http://172.17.254.253
 
 Melyhez a belépéshez szükséges adatotak a gyártó adja nekünk meg. 
-Felhasználónév: Admin
-Jelszó: 12345678
+- Felhasználónév: Admin
+- Jelszó: 12345678
 
 ***5.2 konfigurálás:***
 Ahhoz, hogy legyen rádiós összekötettésünk, az alap rádiós paramétereket be kellett állítani.
@@ -52,9 +48,24 @@ Ha ez nincs beállítva akkor automatikusan növeli az adót és emiatt nem tudu
 - AMR moduláció: QPSK, 16QAM, 32QAM, 64QAM, 128QAM, 256QAM
 Ezzel állítottuk be, hogy QPSK és 256QAM között bármilyen modulációt felvehet, annak érdekében, hogy ne szakadjon meg.
 
-***5.3 valami:***
+***5.3 Csillapító tagok behelyezése:***
+
+Az átalakító tag bekötése után, 3-3 dB csillapítást mértünk. Állítható csillapító mértéke: 0-70 dB, 10dB-es lépcsőkkel. Ezeknek a csillapítok segítségével modelleztük az időjárási viszonyokat.
+
+| Csillapítás (dB) | 20   | 30   | 40   | 50   | 60   | 70   |
+|----------------|------|------|------|------|------|------|
+| Mért bejövőszint (dBm) | -35,8 | -45,7 | -54,2 | -64,7 | -73,8 | -84,1 |
+| Mért feszültség (V) | 3,52  | 2,73  | 2,04  | 1,3   | 0,53  | 0,06  |
+| Leolvasott moduláció TX | 256QAM | 256QAM | 256QAM | 256QAM | 128QAM | QPSK |
+| Leolvasott moduláció RX | 256QAM | 256QAM | 256QAM | 256QAM | 64QAM  | QPSK |
+
+Következő megállapításra jutottunk:
+- Összeköttetés nélkül (szakadás esetén) -90dB mértünk.
+- A jelünk 70dB-ig elfogadható azonban felette már szétesik a jelünk.
+- Valamint 60dB-ig a modulációt egységesen megtartja, azonban felette elkezdi levenni őket.
 
 
+Az adatok kigyűjtése után, már lehetőségünk lett, hogy összehasonlítsuk a mért és ideális adatainkat egy grafikon segítségével.
 ***5.4 valami:***
 
 
