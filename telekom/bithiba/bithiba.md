@@ -24,12 +24,12 @@
 - JDSU OLA55 programozható csillapító
 - UTP valamint Optikai (LC/PC és FC/PC) kábel
 - HP céges laptop
-- 2 db RMC Tel SFP-GE-LX CC sfp
+- 2 db RMC Tel SFP-GE-LX CC sfp 1310nm
 - ETS-1000L Ethernet Loopback
 
 **5. Mérések és beállítások:**
 
-***5.1. valami:***
+***5.1. Összekötés:***
 
 
 
