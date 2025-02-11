@@ -110,6 +110,7 @@ Valamint méréseket végeztünk, miközben a polarizációt forgattuk. Ezeknek 
 Látható, hogy a feszültség csökkenése összefügg a bejövő jelszint változásaival. Mind két moduláció minden esetben tarjta az értékét, ami azt jelzi, hogy az adási moduláció stabilan tartja ezt a szintet. Összegzésként elmondható, hogy az adatok viszonylag stabil rendszert mutatnak, ahol a csillapítás állandó, de a bejövőszint és a feszültség enyhe változásokat mutat. Az adóoldali moduláció magasabb (128QAM), míg a vevőoldali alacsonyabb (64QAM), ami valószínűleg a csillapítás és a jelszint hatásának tudható be.
 
 ***5.4 Tápegység mérése:***
+
 Miután a valós feladatunkat elvégeztük, kiváncsiság céljából megmértük, hogy a tápegységen mennyi áram folyik valamint milyen feszültség van rajta. 
 
 <details>
