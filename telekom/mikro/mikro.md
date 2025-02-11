@@ -60,7 +60,7 @@ Valamint meg kell említeni, hogy a gyakorlatban a mikrók vételi szintjét -35
     <img src="" width="640" height="360">
 </details>
 
-***5.3 Csillapító tagok behelyezése:***
+***5.3 Csillapító tagok behelyezése és mérése:***
 
 Az átalakító tag bekötése után, 3-3 dB csillapítást mértünk. Állítható csillapító mértéke: 0-70 dB, 10dB-es lépcsőkkel. Ezeknek a csillapítok segítségével modelleztük az időjárási viszonyokat.
 
@@ -75,6 +75,11 @@ Következő megállapításra jutottunk:
 - Valamint 60dB-ig a modulációt egységesen megtartja, azonban felette elkezdi levenni őket.
 - A jelünk 70dB-ig elfogadható azonban felette már szétesik a jelünk.
 - Összeköttetés nélkül (szakadás esetén) -90dB mértünk.
+
+<details>
+    <summary>Feszültség mérérs</summary>
+    <img src="" width="640" height="360">
+</details>
 
 
 Az adatok kigyűjtése után, már lehetőségünk lett, hogy összehasonlítsuk a mért és ideális adatainkat egy grafikon segítségével.
@@ -96,7 +101,13 @@ Valamint méréseket végeztünk, miközben a polarizációt forgattuk. Ezeknek 
 
 Látható, hogy a feszültség csökkenése összefügg a bejövő jelszint változásaival. Mind két moduláció minden esetben tarjta az értékét, ami azt jelzi, hogy az adási moduláció stabilan tartja ezt a szintet. Összegzésként elmondható, hogy az adatok viszonylag stabil rendszert mutatnak, ahol a csillapítás állandó, de a bejövőszint és a feszültség enyhe változásokat mutat. Az adóoldali moduláció magasabb (128QAM), míg a vevőoldali alacsonyabb (64QAM), ami valószínűleg a csillapítás és a jelszint hatásának tudható be.
 
-***5.4 valami:***
+***5.4 Tápegység mérése:***
+Miután a valós feladatunkat elvégeztük, kiváncsiság céljából megmértük, hogy a tápegységen mennyi áram folyik valamint milyen feszültség van rajta. 
+
+<details>
+    <summary>Mérés</summary>
+    <img src="" width="640" height="360">
+</details>
 
 
 ***5.5 valami:***
