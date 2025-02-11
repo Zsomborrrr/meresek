@@ -41,7 +41,7 @@ Melyhez a belépéshez szükséges adatotak a gyártó adja nekünk meg.
 
 <details>
     <summary>Valóságbani kinézete</summary>
-    <img src="https://github.com/user-attachments/assets/761d868a-cb39-4578-9085-0caafe8cc76a" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/761d868a-cb39-4578-9085-0caafe8cc76a" width="360" height="640">
 </details>
 
 ***5.2. konfigurálás:***
