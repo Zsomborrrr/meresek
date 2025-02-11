@@ -37,6 +37,11 @@ Melyhez a belépéshez szükséges adatotak a gyártó adja nekünk meg.
 - Felhasználónév: Admin
 - Jelszó: 12345678
 
+<details>
+    <summary>Valóságbani kinézete</summary>
+    <img src="" width="640" height="360">
+</details>
+
 ***5.2 konfigurálás:***
 Ahhoz, hogy legyen rádiós összekötettésünk, az alap rádiós paramétereket be kellett állítani.
 - Channel Spacing: 28 MHz
@@ -47,6 +52,8 @@ Ha ez nincs beállítva akkor automatikusan növeli az adót és emiatt nem tudu
 - TX Power: 0 dBm (1 mW)
 - AMR moduláció: QPSK, 16QAM, 32QAM, 64QAM, 128QAM, 256QAM
 Ezzel állítottuk be, hogy QPSK és 256QAM között bármilyen modulációt felvehet, annak érdekében, hogy ne szakadjon meg.
+
+Valamint meg kell említeni, hogy a gyakorlatban a mikrók vételi szintjét -35dB körülre szokták tenni.
 
 <details>
     <summary>Konfig Felület kinézete</summary>
