@@ -60,9 +60,9 @@ Az átalakító tag bekötése után, 3-3 dB csillapítást mértünk. Állítha
 | Leolvasott moduláció RX | 256QAM | 256QAM | 256QAM | 256QAM | 64QAM  | QPSK |
 
 Következő megállapításra jutottunk:
-- Összeköttetés nélkül (szakadás esetén) -90dB mértünk.
-- A jelünk 70dB-ig elfogadható azonban felette már szétesik a jelünk.
 - Valamint 60dB-ig a modulációt egységesen megtartja, azonban felette elkezdi levenni őket.
+- A jelünk 70dB-ig elfogadható azonban felette már szétesik a jelünk.
+- Összeköttetés nélkül (szakadás esetén) -90dB mértünk.
 
 
 Az adatok kigyűjtése után, már lehetőségünk lett, hogy összehasonlítsuk a mért és ideális adatainkat egy grafikon segítségével.
