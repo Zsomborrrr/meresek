@@ -48,6 +48,11 @@ Ha ez nincs beállítva akkor automatikusan növeli az adót és emiatt nem tudu
 - AMR moduláció: QPSK, 16QAM, 32QAM, 64QAM, 128QAM, 256QAM
 Ezzel állítottuk be, hogy QPSK és 256QAM között bármilyen modulációt felvehet, annak érdekében, hogy ne szakadjon meg.
 
+<details>
+    <summary>Konfig Felület kinézete</summary>
+    <img src="" width="640" height="360">
+</details>
+
 ***5.3 Csillapító tagok behelyezése:***
 
 Az átalakító tag bekötése után, 3-3 dB csillapítást mértünk. Állítható csillapító mértéke: 0-70 dB, 10dB-es lépcsőkkel. Ezeknek a csillapítok segítségével modelleztük az időjárási viszonyokat.
@@ -66,6 +71,13 @@ Következő megállapításra jutottunk:
 
 
 Az adatok kigyűjtése után, már lehetőségünk lett, hogy összehasonlítsuk a mért és ideális adatainkat egy grafikon segítségével.
+
+<details>
+    <summary>Grafikonok</summary>
+    <img src="" width="640" height="360">
+    <img src="" width="640" height="360">
+</details>
+
 ***5.4 valami:***
 
 
