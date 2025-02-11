@@ -64,7 +64,7 @@ Valamint meg kell említeni, hogy a gyakorlatban a mikrók vételi szintjét -35
 
 Az átalakító tag bekötése után, 3-3 dB csillapítást mértünk. Állítható csillapító mértéke: 0-70 dB, 10dB-es lépcsőkkel. Ezeknek a csillapítok segítségével modelleztük az időjárási viszonyokat.
 
-
+---
 
 | Csillapítás (dB) | 20   | 30   | 40   | 50   | 60   | 70   |
 |----------------|------|------|------|------|------|------|
@@ -73,7 +73,7 @@ Az átalakító tag bekötése után, 3-3 dB csillapítást mértünk. Állítha
 | Leolvasott moduláció TX | 256QAM | 256QAM | 256QAM | 256QAM | 128QAM | QPSK |
 | Leolvasott moduláció RX | 256QAM | 256QAM | 256QAM | 256QAM | 64QAM  | QPSK |
 
-
+---
 
 Következő megállapításra jutottunk:
 - Valamint 60dB-ig a modulációt egységesen megtartja, azonban felette elkezdi levenni őket.
@@ -96,7 +96,7 @@ Az adatok kigyűjtése után, már lehetőségünk lett, hogy összehasonlítsuk
 
 Valamint méréseket végeztünk, miközben a polarizációt forgattuk. Ezeknek az adatait is kigyűjtöttük.
 
-
+---
 
 | Csillapítás (dB) | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 |----------------|------|------|------|------|------|------|------|
@@ -105,7 +105,7 @@ Valamint méréseket végeztünk, miközben a polarizációt forgattuk. Ezeknek 
 | Leolvasott moduláció TX | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM |
 | Leolvasott moduláció RX | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM |
 
-
+---
 
 Látható, hogy a feszültség csökkenése összefügg a bejövő jelszint változásaival. Mind két moduláció minden esetben tarjta az értékét, ami azt jelzi, hogy az adási moduláció stabilan tartja ezt a szintet. Összegzésként elmondható, hogy az adatok viszonylag stabil rendszert mutatnak, ahol a csillapítás állandó, de a bejövőszint és a feszültség enyhe változásokat mutat. Az adóoldali moduláció magasabb (128QAM), míg a vevőoldali alacsonyabb (64QAM), ami valószínűleg a csillapítás és a jelszint hatásának tudható be.
 
