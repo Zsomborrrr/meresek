@@ -13,7 +13,11 @@
 **2. A vizsgázó neve:**  
 - Név: Sándor Zsombor
 
-**3. Sükséges eszközök:**  
+**3. Feladat leírása:**
+
+
+**4. Sükséges eszközök:**  
+
 - NEC iPASOLINK VR4 beltéri egység
 - ODU VR4 NEC iPASOLINK TRP-26G-1D kültéri egység (Felső oldalsáv)
 - HP-P200 DC48V 4,2A (48V-os tápegység)
@@ -23,12 +27,12 @@
 - UTP és Koaxiális kábelek
 - HP céges laptop
 
-**4. Mérések és beállítások:**
+**5. Mérések és beállítások:**
 
 
 
 
-### **Összegzés:**
+### **6. Összegzés:**
 
 
 ---
