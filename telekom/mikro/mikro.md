@@ -39,7 +39,7 @@ Melyhez a belépéshez szükséges adatotak a gyártó adja nekünk meg.
 
 <details>
     <summary>Valóságbani kinézete</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/761d868a-cb39-4578-9085-0caafe8cc76a" width="640" height="360">
 </details>
 
 ***5.2 konfigurálás:***
@@ -57,12 +57,14 @@ Valamint meg kell említeni, hogy a gyakorlatban a mikrók vételi szintjét -35
 
 <details>
     <summary>Konfig Felület kinézete</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/52572cab-e8b9-42c6-a755-cb0a3275f356" width="640" height="360">
 </details>
 
 ***5.3 Csillapító tagok behelyezése és mérése:***
 
 Az átalakító tag bekötése után, 3-3 dB csillapítást mértünk. Állítható csillapító mértéke: 0-70 dB, 10dB-es lépcsőkkel. Ezeknek a csillapítok segítségével modelleztük az időjárási viszonyokat.
+
+
 
 | Csillapítás (dB) | 20   | 30   | 40   | 50   | 60   | 70   |
 |----------------|------|------|------|------|------|------|
@@ -71,6 +73,8 @@ Az átalakító tag bekötése után, 3-3 dB csillapítást mértünk. Állítha
 | Leolvasott moduláció TX | 256QAM | 256QAM | 256QAM | 256QAM | 128QAM | QPSK |
 | Leolvasott moduláció RX | 256QAM | 256QAM | 256QAM | 256QAM | 64QAM  | QPSK |
 
+
+
 Következő megállapításra jutottunk:
 - Valamint 60dB-ig a modulációt egységesen megtartja, azonban felette elkezdi levenni őket.
 - A jelünk 70dB-ig elfogadható azonban felette már szétesik a jelünk.
@@ -78,7 +82,7 @@ Következő megállapításra jutottunk:
 
 <details>
     <summary>Feszültség mérérs</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/18087bdf-83f8-4211-a989-78578a59bde2" width="640" height="360">
 </details>
 
 
@@ -86,11 +90,13 @@ Az adatok kigyűjtése után, már lehetőségünk lett, hogy összehasonlítsuk
 
 <details>
     <summary>Grafikonok</summary>
-    <img src="" width="640" height="360">
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/ef335ccb-3146-4c85-8a05-6fe4c8f8ebce" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/5046d591-4af3-4afd-928e-c032efa1e49d" width="640" height="360">
 </details>
 
 Valamint méréseket végeztünk, miközben a polarizációt forgattuk. Ezeknek az adatait is kigyűjtöttük.
+
+
 
 | Csillapítás (dB) | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 |----------------|------|------|------|------|------|------|------|
@@ -99,6 +105,8 @@ Valamint méréseket végeztünk, miközben a polarizációt forgattuk. Ezeknek 
 | Leolvasott moduláció TX | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM | 128QAM |
 | Leolvasott moduláció RX | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM | 64QAM |
 
+
+
 Látható, hogy a feszültség csökkenése összefügg a bejövő jelszint változásaival. Mind két moduláció minden esetben tarjta az értékét, ami azt jelzi, hogy az adási moduláció stabilan tartja ezt a szintet. Összegzésként elmondható, hogy az adatok viszonylag stabil rendszert mutatnak, ahol a csillapítás állandó, de a bejövőszint és a feszültség enyhe változásokat mutat. Az adóoldali moduláció magasabb (128QAM), míg a vevőoldali alacsonyabb (64QAM), ami valószínűleg a csillapítás és a jelszint hatásának tudható be.
 
 ***5.4 Tápegység mérése:***
@@ -106,7 +114,7 @@ Miután a valós feladatunkat elvégeztük, kiváncsiság céljából megmértü
 
 <details>
     <summary>Mérés</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/d03a10cd-0fda-4888-be73-4e19c2258577" width="640" height="360">
 </details>
 
  **6. Összegzés:**
