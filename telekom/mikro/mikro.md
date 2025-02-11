@@ -29,10 +29,28 @@ A feladat célja, hogy modellezük és megmérjük egy mikró szakasz rádiós p
 
 **5. Mérések és beállítások:**
 
+***5.1 valami:***
 
 
+***5.2 valami:***
 
-### **6. Összegzés:**
+
+***5.3 valami:***
+
+
+***5.4 valami:***
+
+
+***5.5 valami:***
+
+
+***5.6 valami:***
+
+
+***5.7 valami:***
+
+
+ **6. Összegzés:**
 
 
 ---
