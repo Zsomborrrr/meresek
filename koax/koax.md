@@ -26,8 +26,8 @@ A Metek HDD-ben 86.6 dBuV jelet tudtunk mérni, tehát ennyit csillapít a kész
 
 <details>
     <summary>Képek</summary>
-    <img src="" width="640" height="360">
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/c7614c05-cfff-437a-9d53-248a7e3b4098" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/4e34f850-4b8d-48b4-be4b-621631f14392" width="640" height="360">
 </details>
 
 **Összesítés:**
