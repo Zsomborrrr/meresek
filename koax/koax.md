@@ -2,8 +2,11 @@
 **Koax kábel készítés**  
 
 **Vizsgázó neve:** Sándor Zsombor
+
 **Dátum:** 2025.02.12.
+
 **Helyszín:** Labor 
+
 **Vizsgabizottság tagjai:** Sándor Péter  
 
 ---
