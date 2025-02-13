@@ -60,7 +60,7 @@ Melyet 1310nm-re és 10dB-re állítva használtunk. Így nálam már csak -16dB
 
 Ekkor már riasztott is nálam hiszen alapértékként már 23dB-nél Alarm 22dB-nél pedig Warning üzenetet küld. Ennél a pontál már hibázott is, a műszer jól mutatta. 
 
-#### *Mar  1 00:41:15.301: %SFF8472-5-THRESHOLD_VIOLATION: Gi0/3: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -23.0 dBm.
+#### *Mar  1 00:41:15.301: %SFF8472-5-THRESHOLD_VIOLATION: Gi0/3: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -23.0 dBm. 
 
 24,6dB-es csillapításnál szét is dobta a hálózatot, ekkor már -31.5dB-t mért.
 
