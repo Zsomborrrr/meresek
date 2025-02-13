@@ -1,7 +1,7 @@
 **MÉRÉSI JEGYZŐKÖNYV**
 
 **Távkozlelési technikus vizsgafeladat**  
-****
+**asdasd**
 
 ---
 
@@ -19,9 +19,25 @@
 **4. Sükséges eszközök:**  
 
 
-**5. Mérések és beállítások:**
+**5. Konfiguráció, mérés, tesztelés:**
 
-***5.1. Összekötés és konfigurálás:***
+***5.1. Kábel szerelés:***
+
+
+
+***5.2. Kábel szerelés:***
+
+
+***5.3. Kábel szerelés:***
+
+
+***5.4. Kábel szerelés:***
+
+
+***5.5. Kábel szerelés:***
+
+
+***5.6. Kábel szerelés:***
 
 
 **6. Összegzés:**
