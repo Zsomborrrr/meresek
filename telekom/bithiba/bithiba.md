@@ -29,6 +29,30 @@
 
 **5. Mérések és beállítások:**
 
+Miután összekötöttük a hálózatot, következő lépésként bekötöttük az állítható csillapítót. A csillapító előtti értékeket itt lehet látni:
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 52.2          | 3.17       | -5.6          | -9.2          |
+
+Melyet 1310nm-re és 10dB-re állítva használtunk. Így nálam már csak -16dB volt mérhető. Az adásom pedig -5,6 körül volt.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 52.7          | 3.17       | -5.6          | -16.6         |
+
+17,45dB-es csillapításnál már -24 dB volt a fogadásom.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 52.7          | 3.17       | -5.6          | -24.1         |
+
+Ekkor már riasztott is nálam hiszen alapértékként már 23dB-nél Alarm 22dB-nél pedig Warning üzenetet küld. Ennél a pontál már hibázott is, a műszer jól mutatta. 
+
+## *Mar  1 00:41:15.301: %SFF8472-5-THRESHOLD_VIOLATION: Gi0/3: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -23.0 dBm.
+
+24,6 dB csillapításnál szét is dobta a hálózatot, ekkor már -31.5dB-t mért. 23,5 csillapításnál állt helyre újra a kapcsolat, ekkor -31dB-es jelet kaptam.
+
 ***5.1. Összekötés:***
 
 
