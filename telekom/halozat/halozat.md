@@ -25,7 +25,7 @@
 - Oldalcsípő
 - Krimpelő fogó
 - Blankoló
-- UTP teszter
+- FLUKE networks LinkRunner AT 2000
 - CAT5 UTP kábel
 
 **5. Konfiguráció, mérés, tesztelés:**
