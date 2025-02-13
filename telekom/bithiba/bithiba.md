@@ -38,6 +38,8 @@ Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekö
 
 ***5.2. RMC Tel SFP-GE-LX:***
 
+Mivel ez volt az első SFP amit vizsgáltunk ezért, ezt néztük meg a legrészletesebben. A többi SFP-nél már csak a hibaarányt vizsgáltuk leginkább és csak pár jelszintet.
+
 Miután összekötöttük a hálózatot, következő lépésként bekötöttük az állítható csillapítót. A csillapító előtti értékeket itt lehet látni:
 
 | Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
@@ -122,8 +124,34 @@ Majd mikor megszakadt a hálózat akkor -31dB volt.
 |-------|----------------|------------|---------------|---------------|
 | Gi0/3 | 44.6          | 3.18       | 1.7           | -31.0         |
 
-***5.4. :***
+***5.4. RMC Tel SFP-GE-MBU-31D & RMC Tel SFP-FE-MBD-49D:***
 
+Ennél az SFP-nél az az érdekesség, hogy egy szálat használ, nem pedig kettőt. Valamint ennél, 2 típust is használtunk, ahol különböző hullámon megy az adás és vétel.
+
+Itt 22,7dB-nél még nincs hiba, de 23,4dB-nél már elkezdődött a hibázás.
+
+| Metric            | Value |
+|------------------|-------|
+| Input Errors     | 669   |
+| CRC Errors       | 41    |
+| Frame Errors     | 0     |
+| Overrun Errors   | 0     |
+| Ignored Errors   | 0     |
+| Output Errors    | 0     |
+| Collisions       | 0     |
+| Interface Resets | 0     |
+
+Ekkor az érkező szint -31dB volt.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 55.8          | 3.17       | -6.3          | -31.0         |
+
+Majd mikor megszakadt a hálózat, -31,5dB-t mértünk.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 56.3          | 3.17       | -6.4          | -31.5         |
 
 
 **6. Összegzés:**
