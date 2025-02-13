@@ -78,7 +78,7 @@ Melyet 1310nm-re és 10dB-re állítva használtunk. Így nálam már csak -16dB
 
 <details>
     <summary>Csillapítás</summary>
-    <img src="https://github.com/user-attachments/assets/7e31ce6d-e2b6-4ee0-94fd-023d6d639207" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/7e31ce6d-e2b6-4ee0-94fd-023d6d639207" width="360" height="640">
 </details>
 
 | Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
