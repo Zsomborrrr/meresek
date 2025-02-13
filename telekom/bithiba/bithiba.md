@@ -26,8 +26,8 @@
 - HP céges laptop
 - 2 db RMC Tel SFP-GE-LX CC sfp 1310nm
 - 2 db RMC Tel SFP-GE-ZX CC sfp 1550nm
-- 1 db RMC Tel SFP-FE-B20-55D CC sfp TX1310nm, RX1550nm
-- 1 db RMC Tel SFP-FE-B20-55d CC sfp TX1550nm, RX1310nm
+- 1 db RMC Tel SFP-FE-B20-55D CC sfp TXnm, RXnm
+- 1 db RMC Tel SFP-FE-B20-55d CC sfp TXnm, RXnm
 - ETS-1000L Ethernet Loopback
 
 **5. Mérések és beállítások:**
@@ -95,9 +95,34 @@ Ekkor meglepő módon, ugyan olyan bejövő szintet mértünk, mint amikor a há
 
 ***5.3. RMC Tel SFP-GE-ZX:***
 
-Ennél az SFP-nél már alapból behelyeztünk egy 10dB-es csillapítót is.
+Ennél az SFP-nél már alapból behelyeztünk egy 10dB-es csillapítót is. Majd ennél az SPF-nél így mértünk hibaarányt és, hogy hol szakad meg a hálózat.
 
-***5.4. RMC Tel SFP-FE-B20-55D:***
+31,5dB-nél még nincs hiba, de 32,4dB-nél már elkezdődött a hibázás.
+
+| Metric            | Value |
+|------------------|-------|
+| Input Errors     | 133   |
+| CRC Errors       | 11    |
+| Frame Errors     | 0     |
+| Overrun Errors   | 0     |
+| Ignored Errors   | 0     |
+| Output Errors    | 0     |
+| Collisions       | 0     |
+| Interface Resets | 0     |
+
+Ekkor az érkező szint -30,4dB volt.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 44.6          | 3.18       | 1.7           | -30.4         |
+
+Majd mikor megszakadt a hálózat akkor -31dB volt.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 44.6          | 3.18       | 1.7           | -31.0         |
+
+***5.4. :***
 
 
 ***5.5.  SFP:***
