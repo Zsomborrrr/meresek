@@ -80,7 +80,7 @@ Ha mindent rendben talált a műszer, akkor a kábelt sikeresen elkészítettük
 
 <details>
     <summary>Topológia</summary>
-    <img src="" width="640" height="360">
+    <img src=https://github.com/user-attachments/assets/98755eef-a655-4d52-9f80-30c2c3c96641" width="302" height="360">
 </details>
 
 
