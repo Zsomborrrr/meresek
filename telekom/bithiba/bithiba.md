@@ -36,6 +36,16 @@
 
 Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekötni őket. Elsősorban összekötöttük a két Switchet, optikai kábellel melyhez már az SFP-t is behelyztük mind ezt a GigabitEthernet 0/3-as portra. Valamint a GigabitEthernet 0/1-as portra az Én switchembe rákötöttük az Ethernet Loopback-et. A labor társam switchére pedig az EXFO Packet Analyzert.
 
+<details>
+    <summary>Modellezés</summary>
+    <img src="" width="640" height="360">
+</details>
+
+<details>
+    <summary>Összeépített hálózat</summary>
+    <img src="" width="640" height="360">
+</details>
+
 ***5.2. RMC Tel SFP-GE-LX:***
 
 Mivel ez volt az első SFP amit vizsgáltunk ezért, ezt néztük meg a legrészletesebben. A többi SFP-nél már csak a hibaarányt vizsgáltuk leginkább és csak pár jelszintet.
@@ -47,6 +57,11 @@ Miután összekötöttük a hálózatot, következő lépésként bekötöttük 
 | Gi0/3 | 52.2          | 3.17       | -5.6          | -9.2          |
 
 Melyet 1310nm-re és 10dB-re állítva használtunk. Így nálam már csak -16dB volt mérhető. Az adásom pedig -5,6 körül volt.
+
+<details>
+    <summary>Csillapítás</summary>
+    <img src="" width="640" height="360">
+</details>
 
 | Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
 |-------|----------------|------------|---------------|---------------|
