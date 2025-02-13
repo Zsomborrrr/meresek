@@ -38,7 +38,7 @@ Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekö
 
 Konfiguráció: 
 
-```plaintext
+```cisco
 !
 interface GigabitEthernet0/1
  switchport access vlan 10
@@ -52,6 +52,7 @@ interface GigabitEthernet0/3
  switchport mode access
  switchport nonegotiate
 !
+```cisco
 
 <details>
     <summary>Modellezés</summary>
