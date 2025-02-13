@@ -52,7 +52,7 @@ interface GigabitEthernet0/3
  switchport mode access
  switchport nonegotiate
 !
-```cisco
+```
 
 <details>
     <summary>Modellezés</summary>
