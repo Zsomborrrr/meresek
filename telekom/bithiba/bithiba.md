@@ -25,9 +25,18 @@
 - UTP valamint Optikai (LC/PC és FC/PC) kábel
 - HP céges laptop
 - 2 db RMC Tel SFP-GE-LX CC sfp 1310nm
+- 2 db RMC Tel SFP-GE-ZX CC sfp 1550nm
+- 1 db RMC Tel SFP-FE-B20-55D CC sfp TX1310nm, RX1550nm
+- 1 db RMC Tel SFP-FE-B20-55d CC sfp TX1550nm, RX1310nm
 - ETS-1000L Ethernet Loopback
 
 **5. Mérések és beállítások:**
+
+***5.1. Összekötés és konfigurálás:***
+
+Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekötni őket. Elsősorban összekötöttük a két Switchet, optikai kábellel melyhez már az SFP-t is behelyztük.
+
+***5.2. RMC Tel SFP-GE-LX:***
 
 Miután összekötöttük a hálózatot, következő lépésként bekötöttük az állítható csillapítót. A csillapító előtti értékeket itt lehet látni:
 
@@ -84,18 +93,14 @@ Ekkor meglepő módon, ugyan olyan bejövő szintet mértünk, mint amikor a há
 
 
 
-***5.1. Összekötés:***
+***5.3. RMC Tel SFP-GE-ZX:***
+
+Ennél az SFP-nél már alapból behelyeztünk egy 10dB-es csillapítót is.
+
+***5.4. RMC Tel SFP-FE-B20-55D:***
 
 
-
-***5.1. valami:***
-***5.1. valami:***
-***5.1. valami:***
-***5.1. valami:***
-***5.1. valami:***
-
-***5.1. valami:***
-
+***5.5.  SFP:***
 
 
 **6. Összegzés:**
