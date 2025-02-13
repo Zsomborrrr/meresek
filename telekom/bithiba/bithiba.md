@@ -171,6 +171,14 @@ Majd mikor megszakadt a hálózat, -31,5dB-t mértünk.
 
 **6. Összegzés:**
 
+A mérések során különböző optikai modulokat vizsgáltunk, és meghatároztuk a hibahatárokat, valamint a kapcsolat megszakadásához vezető jelszinteket. A cél a hibaelhárítási folyamat megismerése, valamint az optikai linkek megbízhatóságának vizsgálata volt. 
+
+- A mérések igazolták, hogy az optikai link stabilitása erősen függ a csillapítás mértékétől.
+- Az optikai jelszintek következetes monitorozása elengedhetetlen a hibák időbeni felismeréséhez.
+- Az SFP modulok eltérő képességekkel rendelkeznek a csillapítás tűrése terén, amit figyelembe kell venni a hálózati infrastruktúra tervezésekor.
+
+A mérések során szerzett tapasztalatok segítségével pontosabban meghatározhatók az optimális konfigurációs beállítások, ezáltal biztosítható az optikai hálózat megfelelő működése és stabilitása.
+
 
 
 ***6.1. Reflexió:***
