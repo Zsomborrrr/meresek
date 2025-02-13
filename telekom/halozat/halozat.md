@@ -1,7 +1,7 @@
 **MÉRÉSI JEGYZŐKÖNYV**
 
 **Távkozlelési technikus vizsgafeladat**  
-**asdasd**
+**Komplex hálózat tervezése, konfiguráláse és kivitelezése**
 
 ---
 
@@ -15,6 +15,7 @@
 
 **3. Feladat leírása:**
 
+A feladat során, a legalapabbaktól kezdve, hogy sima UTP kábelt készítünk, egészen egy stabil, redundás és biztonságos hálózat megtervezését, konfigurálását és kivitelezését visszük végbe, labor körülmények között.
 
 **4. Szükséges eszközök:**  
 
@@ -30,10 +31,9 @@
 
 ***4.2. Hálózat felépítés:***  
 
-- 
-- 
-- 
-- 
+- 5db Cisco Catalyst 3560 Series PoE-8 Layer 3 Switch
+- 12db Ethernet kábel
+- Cisco 800 Series SOHO Router
 
 **5. Konfiguráció, mérés, tesztelés:**
 
