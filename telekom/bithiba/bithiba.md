@@ -17,7 +17,7 @@
 
 Áramkör tesztelése egy szándékosan küldött bit hibával.
 
-**4. Sükséges eszközök:**  
+**4. Szükséges eszközök:**  
 
 - 2 db Catalyst 3560 switch
 - EXFO FTB-200 Packet Analyzer, Ethernet and Fiber Tester
