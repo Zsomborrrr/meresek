@@ -56,7 +56,7 @@ interface GigabitEthernet0/3
 
 <details>
     <summary>Modellezés</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/eb851484-64db-45b1-9f60-f92858c86745" width="486" height="360">
 </details>
 
 <details>
