@@ -68,4 +68,8 @@ Ha mindent rendben talált a műszer, akkor a kábelt sikeresen elkészítettük
 
 **6. Összegzés:**
 
+Az UTP kábel készítése során a pontos munkavégzés és a megfelelő eszközök használata kulcsfontosságú a sikeres eredmény érdekében. A folyamat végén a tesztelés biztosítja, hogy a kábel megfelelően működik, és nincs benne szakadás vagy hibás bekötés. Ha az ellenőrzés hibát jelez, akkor a bekötési sorrend vagy a krimpelés lehet a probléma forrása. A mérés bebizonyította, hogy a szabványok betartásával és a precíz kivitelezéssel megbízható kapcsolatot lehet létrehozni. Az ellenőrző műszer visszajelzése alapján megállapítható, hogy a kábel sikeresen elkészült és használatra kész.
+
 ***6.1. Reflexió:***
+
+A feladat elvégzése során sikerült pontosan és precízen dolgoznom, ami nagyban hozzájárult ahhoz, hogy a végeredmény egy jól működő UTP kábel lett. A szükséges eszközöket magabiztosan kezeltem, és a színsorrend betartása sem okozott problémát. Különösen elégedett vagyok azzal, hogy a krimpelés első próbálkozásra sikerült, és a tesztelő műszer azonnal hibamentes összeköttetést mutatott. A feladat során megszerzett tapasztalatok segítettek még jobban megérteni az UTP kábelezés folyamatát, és megerősítettek abban, hogy a gyakorlat során szerzett tudásom alkalmazható és megbízható. Összességében a feladat sikeresnek mondható, hiszen nemcsak a kábelt készítettem el megfelelően, hanem a folyamatot is végig tudtam vinni hiba nélkül, ami növelte az önbizalmamat ezen a területen.
