@@ -64,7 +64,7 @@ Amint meg vagyunk az egyik oldallal, ugyan ezekkel a lépésekkel elkészítjük
 
 <details>
     <summary>Teszter</summary>
-    <img src="https://github.com/user-attachments/assets/64f4eb76-f813-4ffa-b879-cd81746be134" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/64f4eb76-f813-4ffa-b879-cd81746be134" width="360" height="640">
 </details>
 
 Ha mindent rendben talált a műszer, akkor a kábelt sikeresen elkészítettük.
