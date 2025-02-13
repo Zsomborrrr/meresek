@@ -51,7 +51,18 @@ Ekkor már riasztott is nálam hiszen alapértékként már 23dB-nél Alarm 22dB
 
 ## *Mar  1 00:41:15.301: %SFF8472-5-THRESHOLD_VIOLATION: Gi0/3: Rx power low alarm; Operating value: -24.1 dBm, Threshold value: -23.0 dBm.
 
-24,6 dB csillapításnál szét is dobta a hálózatot, ekkor már -31.5dB-t mért. 23,5 csillapításnál állt helyre újra a kapcsolat, ekkor -31dB-es jelet kaptam.
+24,6 dB csillapításnál szét is dobta a hálózatot, ekkor már -31.5dB-t mért.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 53.2          | 3.17       | -5.7          | -31.5         |
+
+23,5 csillapításnál állt helyre újra a kapcsolat, ekkor -30dB-es jelet kaptam.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 53.2          | 3.17       | -5.7          | -30.4         |
+
 
 ***5.1. Összekötés:***
 
