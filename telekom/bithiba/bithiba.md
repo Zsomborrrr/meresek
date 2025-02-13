@@ -43,7 +43,7 @@ Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekö
 
 <details>
     <summary>Összeépített hálózat</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/d7d9dfdc-c655-4546-aa76-673c61f4fa3a" width="640" height="360">
 </details>
 
 ***5.2. RMC Tel SFP-GE-LX:***
@@ -60,7 +60,7 @@ Melyet 1310nm-re és 10dB-re állítva használtunk. Így nálam már csak -16dB
 
 <details>
     <summary>Csillapítás</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/7e31ce6d-e2b6-4ee0-94fd-023d6d639207" width="640" height="360">
 </details>
 
 | Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
