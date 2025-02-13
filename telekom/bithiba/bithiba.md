@@ -63,6 +63,26 @@ Ekkor már riasztott is nálam hiszen alapértékként már 23dB-nél Alarm 22dB
 |-------|----------------|------------|---------------|---------------|
 | Gi0/3 | 53.2          | 3.17       | -5.7          | -30.4         |
 
+Valamint 24,2dB-nél még nincs hiba, de 24,4dB-nél már elkezdődött a hibázás.
+
+| Metric            | Value |
+|------------------|-------|
+| Input Errors     | 76    |
+| CRC Errors       | 8     |
+| Frame Errors     | 0     |
+| Overrun Errors   | 0     |
+| Ignored Errors   | 0     |
+| Output Errors    | 0     |
+| Collisions       | 0     |
+| Interface Resets | 0     |
+
+Ekkor meglepő módon, ugyan olyan bejövő szintet mértünk, mint amikor a hálózat szét esett.
+
+| Port  | Temperature (°C) | Voltage (V) | Tx Power (dBm) | Rx Power (dBm) |
+|-------|----------------|------------|---------------|---------------|
+| Gi0/3 | 52.7          | 3.17       | -5.7          | -31.5         |
+
+
 
 ***5.1. Összekötés:***
 
