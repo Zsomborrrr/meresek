@@ -34,7 +34,24 @@
 
 ***5.1. Összekötés és konfigurálás:***
 
-Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekötni őket. Elsősorban összekötöttük a két Switchet, optikai kábellel melyhez már az SFP-t is behelyztük mind ezt a GigabitEthernet 0/3-as portra. Valamint a GigabitEthernet 0/1-as portra az Én switchembe rákötöttük az Ethernet Loopback-et. A labor társam switchére pedig az EXFO Packet Analyzert.
+Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekötni őket. Elsősorban összekötöttük a két Switchet, optikai kábellel melyhez már az SFP-t is behelyztük mind ezt a GigabitEthernet 0/3-as portra. Valamint a GigabitEthernet 0/1-as portra az Én switchembe rákötöttük az Ethernet Loopback-et. A labor társam switchére pedig az EXFO Packet Analyzert. Valamint a switchekre nem kellett semmilyen komoly konfigurációt, csupán egy Vlan10-et kellett létrehoznunk, melyet engedélyeztünk a Gigabit Ethernet 0/1-en és 0/3-on. Ezeket a portokat access portnak konfiguráltuk.
+
+Konfiguráció: 
+
+```plaintext
+!
+interface GigabitEthernet0/1
+ switchport access vlan 10
+ switchport mode access
+ switchport nonegotiate
+!
+interface GigabitEthernet0/2
+!
+interface GigabitEthernet0/3
+ switchport access vlan 10
+ switchport mode access
+ switchport nonegotiate
+!
 
 <details>
     <summary>Modellezés</summary>
@@ -182,3 +199,7 @@ A mérések során szerzett tapasztalatok segítségével pontosabban meghatáro
 
 
 ***6.1. Reflexió:***
+
+A mérés során végig motivált és lelkes voltam, hiszen lehetőségem nyílt egy komplex optikai rendszer vizsgálatára. A különböző eszközök konfigurálása és a hibaelemzés kihívást jelentett, ugyanakkor sikeresen teljesítettem a feladatot. Az eredmények pontosan igazolták az elméleti várakozásokat, ami különösen elégedettséggel töltött el.
+
+A feladat során fejlődött a műszaki eszközök kezelésében szerzett tapasztalatom, és megerősítést nyert az optikai hálózatokkal kapcsolatos tudásom. A pozitív végkifejlet, az eredmények értelmezése és a sikeres hibadetektálás megerősítette bennem, hogy a szakmai fejlődésem jó irányba halad.
