@@ -16,13 +16,22 @@
 **3. Feladat leírása:**
 
 
-**4. Sükséges eszközök:**  
+**4. Szükséges eszközök:**  
 
+***4.1. Kábelszerelés:***  
+
+- 2db RJ45
+- 2db UTP törésgátló
+- Oldalcsípő
+- Krimpelő fogó
+- Blankoló
+- UTP teszter
 
 **5. Konfiguráció, mérés, tesztelés:**
 
-***5.1. Kábel szerelés:***
+***5.1. Kábelszerelés:***
 
+Ehhez a folyamathoz szükségünk van, kábelenkét 2db RJ45-ös csatlakozóra, valamint szintén kábelenkét 2db UTP törésgátlóra. Mind ezek mellett kell nekünk oldalcsípő és krimpelő fogó.
 
 
 ***5.2. Kábel szerelés:***
