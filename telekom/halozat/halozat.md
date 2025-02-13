@@ -28,6 +28,13 @@
 - FLUKE networks LinkRunner AT 2000
 - CAT5 UTP kábel
 
+***4.2. Hálózat felépítés:***  
+
+- 
+- 
+- 
+- 
+
 **5. Konfiguráció, mérés, tesztelés:**
 
 ***5.1. Kábelszerelés:***
@@ -69,10 +76,15 @@ Amint meg vagyunk az egyik oldallal, ugyan ezekkel a lépésekkel elkészítjük
 
 Ha mindent rendben talált a műszer, akkor a kábelt sikeresen elkészítettük.
 
-***5.2. Kábel szerelés:***
+***5.2. Hálózat összekötése, topológiai ábra alapján:***
+
+<details>
+    <summary>Topológia</summary>
+    <img src="" width="640" height="360">
+</details>
 
 
-***5.3. Kábel szerelés:***
+***5.3. Konfiguráció:***
 
 
 ***5.4. Kábel szerelés:***
