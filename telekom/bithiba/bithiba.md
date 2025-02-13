@@ -26,15 +26,15 @@
 - HP céges laptop
 - 2 db RMC Tel SFP-GE-LX CC sfp 1310nm
 - 2 db RMC Tel SFP-GE-ZX CC sfp 1550nm
-- 1 db RMC Tel SFP-FE-B20-55D CC sfp TXnm, RXnm
-- 1 db RMC Tel SFP-FE-B20-55d CC sfp TXnm, RXnm
+- 1 db RMC Tel SFP-GE-MBU-31D CC sfp TX1310nm, RX1490nm
+- 1 db RMC Tel SFP-FE-MBD-49D CC sfp TX1490nm, RX1310nm
 - ETS-1000L Ethernet Loopback
 
 **5. Mérések és beállítások:**
 
 ***5.1. Összekötés és konfigurálás:***
 
-Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekötni őket. Elsősorban összekötöttük a két Switchet, optikai kábellel melyhez már az SFP-t is behelyztük.
+Miután előkészítettünk minden szükséges eszközt, elkezdhettük összekötni őket. Elsősorban összekötöttük a két Switchet, optikai kábellel melyhez már az SFP-t is behelyztük mind ezt a GigabitEthernet 0/3-as portra. Valamint a GigabitEthernet 0/1-as portra az Én switchembe rákötöttük az Ethernet Loopback-et. A labor társam switchére pedig az EXFO Packet Analyzert.
 
 ***5.2. RMC Tel SFP-GE-LX:***
 
@@ -124,8 +124,6 @@ Majd mikor megszakadt a hálózat akkor -31dB volt.
 
 ***5.4. :***
 
-
-***5.5.  SFP:***
 
 
 **6. Összegzés:**
