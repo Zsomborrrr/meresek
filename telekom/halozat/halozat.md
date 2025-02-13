@@ -26,13 +26,48 @@
 - Krimpelő fogó
 - Blankoló
 - UTP teszter
+- CAT5 UTP kábel
 
 **5. Konfiguráció, mérés, tesztelés:**
 
 ***5.1. Kábelszerelés:***
 
-Ehhez a folyamathoz szükségünk van, kábelenkét 2db RJ45-ös csatlakozóra, valamint szintén kábelenkét 2db UTP törésgátlóra. Mind ezek mellett kell nekünk oldalcsípő és krimpelő fogó.
+Ehhez a folyamathoz szükségünk van, kábelenkét 2db RJ45-ös csatlakozóra, valamint szintén kábelenkét 2db UTP törésgátlóra. Mind ezek mellett kell nekünk oldalcsípő és krimpelő fogó. Az ethernet kábel elkészítéséhez, a klasszikus és egyszerű valamint jól bevált színsorrendet fogjuk használni.
 
+<details>
+    <summary>Színsorrend</summary>
+    <img src="" width="640" height="360">
+</details>
+
+Első sorban eltávolítjuk a külső műanyag/gumi védőréteget a kábel kezelésbe vett oldaláról. Majd utána ráhúzzuk a kábelünkre a törésgátló gumi borítást.
+
+<details>
+    <summary>Blankolt kábel</summary>
+    <img src="" width="640" height="360">
+</details>
+
+Ezek után a csavart érpárokat, kicsavarjuk, kiegyenesítjük és megfelelő sorrendbe rendezzük őket. Majd ha ezekkel elkészültünk, levágjuk a felesleges vezetékeket, így hagyva egy kb 1 centi hosszú sorrendbe helyezett kábelvéget.
+
+<details>
+    <summary>Sorbarendezett</summary>
+    <img src="" width="640" height="360">
+</details>
+
+Ha megfelelő hosszúságú, és rendezett színsorrendbe vannak a vezetékek, akkor ráhelyezzük az RJ45-ös csatlakozót, megfelelő oda figyeléssel, így minden kis vékony vezeték, a saját sávjában fog kikötni. Ezt sikeresen elvégezve a krimpelővel rároppatjuk a csatlakozót a kábelre, és ráhúzzuk az előlegesen felhelyezett törésgátlót.
+
+<details>
+    <summary>Kész kábel</summary>
+    <img src="" width="640" height="360">
+</details>
+
+Amint meg vagyunk az egyik oldallal, ugyan ezekkel a lépésekkel elkészítjük a másik oldalát is a kábelnek. Majd ha végeztünk, akkor az egyik végét bedugjuk egy switchbe, a másik végét pedig az UTP teszterbe, és a műszerben a SWITCH opciót választva, megmondja nekünk, hogy megfelelő-e az összeköttetés, vagy pedig elrontottunk valamit.
+
+<details>
+    <summary>Teszter</summary>
+    <img src="" width="640" height="360">
+</details>
+
+Ha mindent rendben talált a műszer, akkor a kábelt sikeresen elkészítettük.
 
 ***5.2. Kábel szerelés:***
 
