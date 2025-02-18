@@ -19,7 +19,7 @@ A feladat során, a legalapabbaktól kezdve, megtanulhatjuk, és elsajátíthatj
 
 **4. Szükséges eszközök:**  
 
-- Koaxiális kábel 60m
+- Koaxiális kábel 70m
 - N típusú csatlakozó
 - Blankoló
 - Oldal csípő
@@ -28,6 +28,7 @@ A feladat során, a legalapabbaktól kezdve, megtanulhatjuk, és elsajátíthatj
 - Nyomatékkulcs
 - Anritsu BTS Master 
 - Multiméter
+- CATRain antenna
 
 **5. Kábel elkészítése:**
 
@@ -63,7 +64,7 @@ Azonban mielőtt ellenőrizni tudjuk az elkészített kábelünk minőségét, u
     <img src="https://github.com/user-attachments/assets/74b93e22-b383-4113-be94-036b0f167d21" width="360" height="640">
 </details>
 
-Mikor elkészítettük a teljes koaxiális kábelünket, ezután tesztelhetjük a minőségét, erre most egy Anritsu műszert fogunk használni.
+Mikor elkészítettük a teljes koaxiális kábelünket, ezután tesztelhetjük a minőségét, erre most egy Anritsu műszert fogunk használni, egy speciális mérő kábel segítségével. Mérés közben egy mobil antenna volt rákötve.
 
 <details>
     <summary>Teszter</summary>
