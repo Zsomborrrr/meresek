@@ -19,9 +19,9 @@ A feladat során, a legalapabbaktól kezdve, megtanulhatjuk, és elsajátíthatj
 
 **4. Szükséges eszközök:**  
 
-- 
-- 
-- 
+- Koaxiális kábel
+- N tipusú csatlakozó
+- Blankoló
 - 
 - 
 - 
