@@ -68,7 +68,7 @@ Mikor elkészítettük a teljes koaxiális kábelünket, ezután tesztelhetjük 
 
 <details>
     <summary>Teszter</summary>
-    <img src="https://github.com/user-attachments/assets/ad836faa-9bbd-42b1-a7d6-2176235b658b" width="360" height="640">
+    <img src="https://github.com/user-attachments/assets/ad836faa-9bbd-42b1-a7d6-2176235b658b" width="640" height="360">
 </details>
 
 Miután megmértük a kábelünket, és megfelelő viszonyokon belül marad a csillapításának mértéke, a kábel elkészítését sikeresnek tekinthetjük.
