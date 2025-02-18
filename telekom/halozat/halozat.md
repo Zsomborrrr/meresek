@@ -1,6 +1,6 @@
 **MÉRÉSI JEGYZŐKÖNYV**
 
-**Távkozlelési technikus vizsgafeladat**  
+**Távközlési technikus vizsgafeladat**  
 **Komplex hálózat tervezése, konfiguráláse és kivitelezése**
 
 ---

@@ -1,6 +1,6 @@
 **MÉRÉSI JEGYZŐKÖNYV**
 
-**Távkozlelési technikus vizsgafeladat**  
+**Távközlési technikus vizsgafeladat**  
 **Mikro szakasz csillapitás modellezése, különböző vételi szinteknél labor körülmények között.**
 
 ---
