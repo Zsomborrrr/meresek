@@ -25,7 +25,6 @@ A feladat során, a legalapabbaktól kezdve, megtanulhatjuk, és elsajátíthatj
 - 
 - 
 - 
-- 
 
 **5. Kábel elkészítése:**
 
