@@ -60,7 +60,7 @@ Mielőtt ellenőrizni tudjuk az elkészített kábelünk minőségét, ugyan eze
     <img src="" width="360" height="640">
 </details>
 
-Mikor elkészítettük a teljes koaxiális kábelünket, ezután tesztelhetjük a minőségét, erre most egy ===== műszert fogunk használni.
+Mikor elkészítettük a teljes koaxiális kábelünket, ezután tesztelhetjük a minőségét, erre most egy ?????? műszert fogunk használni.
 
 <details>
     <summary>Teszter</summary>
@@ -70,6 +70,7 @@ Mikor elkészítettük a teljes koaxiális kábelünket, ezután tesztelhetjük 
 Miután megmértük a kábelünket, és megfelelő viszonyokon belül marad a csillapításának mértéke, a kábel elkészítését sikeresnek tekinthetjük.
 
 **6. Összegzés:**
+
 
 
 ***6.1. Reflexió:***
