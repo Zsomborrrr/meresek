@@ -45,7 +45,7 @@ Itt pedig a használni kívánt kábelt:
     <img src="" width="360" height="640">
 </details>
 
-A feladat első lépéseként, előkészítjük a kábelt, azzal hogy megblankoljuk megfelelő módon. Vigyáznunk kell, hogy lehetőleg ne legyen se túl kicsi, se túl nagy a megblankolt része a kábelnek, valamint, hogy a középen futó réz szál ne sérüljön. Majd a reszelő segítségével a réz huzal végét, tompára/gömölyűre csiszoljuk.
+A feladat első lépéseként, előkészítjük a kábelt, azzal hogy megblankoljuk megfelelő módon. Vigyáznunk kell, hogy lehetőleg ne legyen se túl kicsi, se túl nagy a megblankolt része a kábelnek, valamint, hogy a középen futó réz szál ne sérüljön. Majd a reszelő segítségével a réz huzal végét, tompára/gömbölyűre csiszoljuk.
 
 <details>
     <summary>Blankolt kábel</summary>
