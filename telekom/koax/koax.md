@@ -26,6 +26,7 @@ A feladat során, a legalapabbaktól kezdve, megtanulhatjuk, és elsajátíthatj
 - Vas fűrész
 - Reszelő
 - Nyomatékkulcs
+- Anritsu BTS Master 
 
 **5. Kábel elkészítése:**
 
@@ -52,7 +53,7 @@ A feladat első lépéseként, előkészítjük a kábelt, azzal hogy megblankol
     <img src="" width="360" height="640">
 </details>
 
-Amint a kábel előkészítésével megvagyunk, ráhelyezzük a használni kívánt csatlakozót, és a csatlakozó típusától függően, csak rácsavarjuk vagy pedig egy krimpelő fogóval rászorítjuk. A mi esetünk rácsavarjuk a csatlakozó a kábel végére. Ekkor ellenőrizni tudjuk, hogy a a belső réz vezeték, nem-e túl kicsi vagy pedig pont hogy túl hosszú. Ha valamelyik probléma fent áll, akkor azt korrigálnunk kell például oldalcsípővel. Amennyiben viszont a megtanultakat megfelelően használjuk, nem lesz vele gond és megfelelő működést fog produkálni.
+Amint a kábel előkészítésével megvagyunk, ráhelyezzük a használni kívánt csatlakozót, és annak részet, majd csatlakozó típusától függően, csak rácsavarjuk vagy pedig egy krimpelő fogóval rászorítjuk. A mi esetünk rácsavarjuk a csatlakozót a kábel végére. Ekkor ellenőrizni tudjuk, hogy a belső réz vezeték, nem-e túl kicsi vagy pedig pont hogy túl hosszú. Ha valamelyik probléma fent áll, akkor azt korrigálnunk kell például oldalcsípővel. Amennyiben viszont a megtanultakat megfelelően használjuk, nem lesz vele gond és megfelelő működést fog produkálni.
 Mielőtt ellenőrizni tudjuk az elkészített kábelünk minőségét, ugyan ezeket a lépésekkel haladva, el kell hogy készítsük a kábelünk másik végét is.
 
 <details>
@@ -60,7 +61,7 @@ Mielőtt ellenőrizni tudjuk az elkészített kábelünk minőségét, ugyan eze
     <img src="" width="360" height="640">
 </details>
 
-Mikor elkészítettük a teljes koaxiális kábelünket, ezután tesztelhetjük a minőségét, erre most egy ?????? műszert fogunk használni.
+Mikor elkészítettük a teljes koaxiális kábelünket, ezután tesztelhetjük a minőségét, erre most egy Anritsu műszert fogunk használni.
 
 <details>
     <summary>Teszter</summary>
