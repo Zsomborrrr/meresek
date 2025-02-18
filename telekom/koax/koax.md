@@ -1,6 +1,6 @@
 **MÉRÉSI JEGYZŐKÖNYV**
 
-**Távkozlelési technikus vizsgafeladat**  
+**Távközlési technikus vizsgafeladat**  
 **Koaxiális kábel készítés**
 
 ---
@@ -20,15 +20,15 @@ A feladat során, a legalapabbaktól kezdve, megtanulhatjuk, és elsajátíthatj
 **4. Szükséges eszközök:**  
 
 - Koaxiális kábel
-- N tipusú csatlakozó
+- N típusú csatlakozó
 - Blankoló
-- 
+- Oldal csípő
 - 
 - 
 
 **5. Kábel elkészítése:**
 
-Ehhez a folyamathoz szükségünk van, kábelenkét 2db "N" tipusú csatlakozóra, valamint blankolóra. A kábel elkészítéséhez, a megtanult mértékekkel dolgozunk, azzal kapcsolatban, hogy milyen hosszúságra kell blankolni a kábel egyes részeit.
+Ehhez a folyamathoz szükségünk van, kábelenkét 2db "N" típusú csatlakozóra, valamint blankolóra. A kábel elkészítéséhez, a megtanult mértékekkel dolgozunk, azzal kapcsolatban, hogy milyen hosszúságra kell blankolni a kábel egyes részeit.
 
 Az alábbiakban láthatjuk a használni kívánt csatlakozót:
 
@@ -44,14 +44,14 @@ Itt pedig a használni kívánt kábelt:
     <img src="" width="360" height="640">
 </details>
 
-A feladat első lépéseként, előkészítjük a kábelt, azzal hogy megblankoljuk megfelelő módon. Vigyáznunk kell, hogy lehetőleg ne legyen se túl kicsi, se túl nagy a megblankolt része a kábelnek, valamint, hogy a középen futú réz szál ne sérüljön.
+A feladat első lépéseként, előkészítjük a kábelt, azzal hogy megblankoljuk megfelelő módon. Vigyáznunk kell, hogy lehetőleg ne legyen se túl kicsi, se túl nagy a megblankolt része a kábelnek, valamint, hogy a középen futó réz szál ne sérüljön.
 
 <details>
     <summary>Blankolt kábel</summary>
     <img src="" width="360" height="640">
 </details>
 
-Amint a kábel előkészítésével megvagyunk, ráhelyezzük a használni kívánt csatlakozót, és a csatlakozó típusától függően, csak rácsavarjuk vagy pedig egy krimpelő fogóval rászorítjuk. A mi esetünk rácsavarjuk a csatlakozó a kábel végére. Ekkor ellenőrizni tudjuk, hogy a a belső réz vezeték, nem-e túl kicsi vagy pedig pont hogy túl hosszú. Ha valamelyik probléma fent áll, akkor azt korrigálnunk kell. Amennyiben viszont a megtanultakat megfelelően használjuk, nem lesz vele gond és megfelelő működést fog produkálni.
+Amint a kábel előkészítésével megvagyunk, ráhelyezzük a használni kívánt csatlakozót, és a csatlakozó típusától függően, csak rácsavarjuk vagy pedig egy krimpelő fogóval rászorítjuk. A mi esetünk rácsavarjuk a csatlakozó a kábel végére. Ekkor ellenőrizni tudjuk, hogy a a belső réz vezeték, nem-e túl kicsi vagy pedig pont hogy túl hosszú. Ha valamelyik probléma fent áll, akkor azt korrigálnunk kell például oldalcsípővel. Amennyiben viszont a megtanultakat megfelelően használjuk, nem lesz vele gond és megfelelő működést fog produkálni.
 Mielőtt ellenőrizni tudjuk az elkészített kábelünk minőségét, ugyan ezeket a lépésekkel haladva, el kell hogy készítsük a kábelünk másik végét is.
 
 <details>
