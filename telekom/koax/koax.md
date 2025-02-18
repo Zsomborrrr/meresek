@@ -75,6 +75,14 @@ Miután megmértük a kábelünket, és megfelelő viszonyokon belül marad a cs
 
 **6. Összegzés:**
 
+A vizsgafeladat célja a koaxiális kábel megfelelő elkészítésének és tesztelésének elsajátítása. A gyakorlat során a vizsgázó különböző szerszámok és mérőműszerek segítségével végrehajtotta a kábel előkészítését, szerelését és ellenőrzését. A folyamat során kiemelt szerepet kapott a precíz méretezés, a megfelelő csatlakoztatás, valamint az elektromos jellemzők ellenőrzése.
 
+A végső tesztelés során a kábel minőségét Anritsu BTS Master műszerrel vizsgálták, biztosítva, hogy a csillapítás a megfelelő határokon belül maradjon. A sikeres mérés igazolta a kábel megfelelő működését, ezzel bizonyítva a vizsgázó szakmai hozzáértését és gyakorlati felkészültségét.
 
 ***6.1. Reflexió:***
+
+A vizsgafeladat során végig jól éreztem magam, hiszen lehetőségem volt a gyakorlatban is alkalmazni az eddig megszerzett tudásomat. A koaxiális kábel elkészítése nemcsak kihívást jelentett, hanem egyben egy érdekes és tanulságos folyamat is volt. Különösen élveztem a precíz munkavégzést, például a kábel pontos blankolását és a csatlakozók megfelelő rögzítését.
+
+Nagyon elégedett voltam azzal, hogy a folyamat minden lépését magabiztosan tudtam végrehajtani, és hogy a végső mérés során a kábel megfelelően teljesített. Jó érzés volt látni, hogy a saját kezűleg elkészített kábel hibátlanul működik, és megfelel a mérési követelményeknek.
+
+A feladat során nemcsak a technikai tudásomat fejlesztettem, hanem a precizitásra és a türelemre is nagyobb figyelmet fordítottam. Összességében egy sikeres és pozitív élményként tekintek vissza erre a vizsgára, amely megerősítette bennem azt, hogy a távközlési technika területe valóban érdekel és motivál a további fejlődésre.
