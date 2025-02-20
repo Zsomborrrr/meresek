@@ -138,7 +138,7 @@ Konfiguráció tekintetében az IP cím tartományokkal kapcsolatban az alábbia
 Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a Layer 3 Switcheimen.
 
 <details>
-    <summary>Konfiguráció</summary>
+    <summary>Access0 Konfiguráció</summary>
 
 ```plaintext
 Building configuration...
