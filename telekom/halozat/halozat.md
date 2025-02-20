@@ -141,11 +141,202 @@ Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a L
     <summary>Konfiguráció</summary>
 
 ```plaintext
-Router(config)# interface GigabitEthernet0/1
-Router(config-if)# ip address 192.168.1.1 255.255.255.0
-Router(config-if)# no shutdown
-Router(config-if)# exit
-Router(config)# exit
+Building configuration...
+
+Current configuration : 3463 bytes
+!
+! Last configuration change at 13:12:59 CET Thu Feb 20 2025
+! NVRAM config last updated at 13:11:51 CET Thu Feb 20 2025
+!
+version 15.0
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname Access0
+!
+boot-start-marker
+boot-end-marker
+!
+!
+no logging console
+no logging monitor
+enable secret 5 $1$HuBF$0Qc1ooDS/Efcxej/hl1mA/
+!
+username admin secret 5 $1$IXLf$7tAbYb0TEYUiE1T6bCqaq.
+aaa new-model
+!
+!
+aaa authentication login default group radius local
+aaa authorization console
+aaa authorization exec default group radius local
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone CET 1 0
+clock summer-time CEST recurring last Sun Mar 2:00 last Sun Oct 3:00
+system mtu routing 1500
+vtp mode transparent
+ip routing
+ip arp inspection vlan 10
+ip domain-name Telekom.Intra
+!
+!
+!
+ip dhcp snooping vlan 10
+ip dhcp snooping
+!
+!
+!
+!
+!
+!
+!
+!
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+!
+vlan internal allocation policy ascending
+!
+vlan 10
+ name Users
+!
+ip ssh version 2
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 10.0.0.1 255.255.255.255
+ ip ospf 1 area 0
+!
+interface FastEthernet0/1
+ no switchport
+ ip address 192.168.254.65 255.255.255.252
+ ip ospf network point-to-point
+ ip ospf 1 area 0
+!
+interface FastEthernet0/2
+ no switchport
+ ip address 192.168.254.69 255.255.255.252
+ ip ospf network point-to-point
+ ip ospf 1 area 0
+!
+interface FastEthernet0/3
+ switchport access vlan 10
+ switchport mode access
+ switchport nonegotiate
+ switchport port-security violation restrict
+ switchport port-security
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface FastEthernet0/4
+ switchport access vlan 10
+ switchport mode access
+ switchport nonegotiate
+ switchport port-security violation restrict
+ switchport port-security
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface FastEthernet0/5
+ switchport access vlan 10
+ switchport mode access
+ switchport nonegotiate
+ switchport port-security violation restrict
+ switchport port-security
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface FastEthernet0/6
+ switchport access vlan 10
+ switchport mode access
+ switchport nonegotiate
+ switchport port-security violation restrict
+ switchport port-security
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface FastEthernet0/7
+ switchport access vlan 10
+ switchport mode access
+ switchport nonegotiate
+ switchport port-security violation restrict
+ switchport port-security
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface FastEthernet0/8
+ switchport access vlan 10
+ switchport mode access
+ switchport nonegotiate
+ switchport port-security violation restrict
+ switchport port-security
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface GigabitEthernet0/1
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ ip address 172.16.0.1 255.255.255.192
+ ip helper-address 10.0.1.2
+ ip ospf 1 area 0
+!
+router ospf 1
+ passive-interface Vlan10
+ passive-interface Loopback0
+!
+no ip http server
+no ip http secure-server
+!
+!
+!
+ip radius source-interface Loopback0
+logging source-interface Loopback0
+logging host 10.0.1.2
+!
+!
+!
+radius server radius
+ address ipv4 10.0.1.2 auth-port 1812 acct-port 1813
+ key 7 011B03085704575D72
+!
+!
+!
+vstack
+!
+line con 0
+line vty 0 4
+ transport input ssh
+line vty 5 15
+ transport input ssh
+!
+ntp source Loopback0
+ntp server 10.0.1.2
+end
+
 ```
 </details>
 
