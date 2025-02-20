@@ -139,9 +139,8 @@ Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a L
 
 <details>
     <summary>Konfiguráció</summary>
-    ```cisco
-    asdads
-    asdads
+    ```bash
+    szöveg
     ```
 </details>
 
