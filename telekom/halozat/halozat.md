@@ -92,14 +92,14 @@ Labortársaimmal, megbeszélést követően felosztottuk, hogy a hálózatban me
 
 <details>
     <summary>Access Switchek</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/2486695b-80f9-4d10-811a-370038d47121" width="640" height="360">
 </details>
 
 Miután eszközeimet elrendeztem, elkezdhettük összekötni őket a Distribution Layer-el. Itt szintén fontos a Társaimmal való kommunikáció, hogy pontosan melyik Ethernet kábel, az adott Switchbe/Routerbe melyik portra csatlakozik. 
 
 <details>
     <summary>Összekötött Access Switchek</summary>
-    <img src="" width="640" height="360">
+    <img src="https://github.com/user-attachments/assets/28a192c9-7239-4b3f-bbf6-28066a0f75d3" width="640" height="360">
 </details>
 
 Amint összekötöttük egymást, annak helyességét a konfig felületen tudjuk ellenőrizni az alábbi parancsal:
