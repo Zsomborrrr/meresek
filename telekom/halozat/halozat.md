@@ -139,9 +139,14 @@ Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a L
 
 <details>
     <summary>Konfiguráció</summary>
-    ```bash
-    szöveg
-    ```
+
+```plaintext
+Router(config)# interface GigabitEthernet0/1
+Router(config-if)# ip address 192.168.1.1 255.255.255.0
+Router(config-if)# no shutdown
+Router(config-if)# exit
+Router(config)# exit
+```
 </details>
 
 ***5.3. Kábel szerelés:***
