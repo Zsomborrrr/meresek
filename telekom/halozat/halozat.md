@@ -95,24 +95,37 @@ Labortársaimmal, megbeszélést követően felosztottuk, hogy a hálózatban me
     <img src="" width="640" height="360">
 </details>
 
-Miután eszközeimet elrendeztem, elkezdhettük összekötni őket a Distribution Layer-el. Itt szintén fontos a Társaimmal való kommunikáció, hogy pontosan melyik Ethernet kábel, az adott Switchbe/Routerbe melyik portra csatlakozik. Amint összekötöttük egymást, helyességét a konfig felületen tudjuk ellenőrizni az alábbi parancsal:
-
-```cisco
-
-```
+Miután eszközeimet elrendeztem, elkezdhettük összekötni őket a Distribution Layer-el. Itt szintén fontos a Társaimmal való kommunikáció, hogy pontosan melyik Ethernet kábel, az adott Switchbe/Routerbe melyik portra csatlakozik. 
 
 <details>
     <summary>Összekötött Access Switchek</summary>
     <img src="" width="640" height="360">
 </details>
 
-<details>
-    <summary>CDP Neighbour</summary>
-    <img src="" width="640" height="360">
-</details>
+Amint összekötöttük egymást, annak helyességét a konfig felületen tudjuk ellenőrizni az alábbi parancsal:
 
-***5.3. Kábel szerelés:***
+```cisco
+Access0(config)#do show cdp neighbors
+```
 
+A terminálon belüli ellenőrzést az Access0 switchen végeztem az alábbi sorokban, azonban minden eszközön meg kell ismételni az ellenőrzést.
+
+```cisco
+
+```
+
+***5.3.2. Konfiguráció:***
+
+Konfiguráció tekintetében az IP cím tartományokkal kapcsolatban az alábbiakban mutatva egyeztünk meg.
+
+- Management (Loopback): 10.0.0.X /32
+- Uplink: 192.168.254.X /30
+- Access0
+-- Users (Vlan10): 172.16.0.0 /26
+- Access1
+-- Users (Vlan10): 172.16.0.64 /26
+- Access2
+-- Users (Vlan10): 172.16.0.128 /26
 
 ***5.3. Kábel szerelés:***
 
