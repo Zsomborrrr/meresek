@@ -111,14 +111,15 @@ Access0(config)#do show cdp neighbors
 A terminálon belüli ellenőrzést az Access0 switchen végeztem az alábbi sorokban, azonban minden eszközön meg kell ismételni az ellenőrzést.
 
 ```cisco
-Access0(config)#do show cdp neighbors
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone,
                   D - Remote, C - CVTA, M - Two-port Mac Relay
 
 Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
-Distribution0    Fas 0/1           110              S I   WS-C3560- Fas 0/3
-Distribution1    Fas 0/2           170              S I   WS-C3560- Fas 0/3
+Distribution0.Telekom.Intra
+                 Fas 0/1           142             R S I  WS-C3560- Fas 0/3
+Distribution1.Telekom.intra
+                 Fas 0/2           167             R S I  WS-C3560- Fas 0/3
 ```
 
 ***5.3.2. Konfiguráció:***
@@ -133,6 +134,16 @@ Konfiguráció tekintetében az IP cím tartományokkal kapcsolatban az alábbia
 -- Users (Vlan10): 172.16.0.64 /26
 - Access2
 -- Users (Vlan10): 172.16.0.128 /26
+
+Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a Layer 3 Switcheimen.
+
+<details>
+    <summary>Konfiguráció</summary>
+    ```cisco
+    asdads
+    asdads
+    ```
+</details>
 
 ***5.3. Kábel szerelés:***
 
