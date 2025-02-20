@@ -143,10 +143,10 @@ Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a L
 ```plaintext
 Building configuration...
 
-Current configuration : 3463 bytes
+Current configuration : 3764 bytes
 !
-! Last configuration change at 13:12:59 CET Thu Feb 20 2025
-! NVRAM config last updated at 13:11:51 CET Thu Feb 20 2025
+! Last configuration change at 13:14:23 CET Thu Feb 20 2025 by zsombi
+! NVRAM config last updated at 13:29:47 CET Thu Feb 20 2025 by zsombi
 !
 version 15.0
 no service pad
@@ -301,6 +301,7 @@ interface Vlan1
 !
 interface Vlan10
  ip address 172.16.0.1 255.255.255.192
+ ip access-group LEGAL_HOSTS in
  ip helper-address 10.0.1.2
  ip ospf 1 area 0
 !
@@ -312,6 +313,15 @@ no ip http server
 no ip http secure-server
 !
 !
+!
+ip access-list standard LEGAL_HOST
+ deny   any
+ip access-list standard LEGAL_HOSTS
+ permit 0.0.0.0
+ permit 172.16.0.0 0.0.0.63
+ip access-list standard REMOTE_CLI
+ permit 10.0.1.2
+ deny   any
 !
 ip radius source-interface Loopback0
 logging source-interface Loopback0
@@ -329,13 +339,16 @@ vstack
 !
 line con 0
 line vty 0 4
+ access-class REMOTE_CLI in
  transport input ssh
 line vty 5 15
+ access-class REMOTE_CLI in
  transport input ssh
 !
 ntp source Loopback0
 ntp server 10.0.1.2
 end
+
 
 ```
 </details>
