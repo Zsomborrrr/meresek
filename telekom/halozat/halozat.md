@@ -76,7 +76,7 @@ Amint meg vagyunk az egyik oldallal, ugyan ezekkel a lépésekkel elkészítjük
 
 Ha mindent rendben talált a műszer, akkor a kábelt sikeresen elkészítettük.
 
-***5.2. Hálózat összekötése, topológiai ábra alapján:***
+***5.2. Hálózat topológiai ábrája megbeszélések alapján:***
 
 <details>
     <summary>Topológia</summary>
@@ -84,16 +84,37 @@ Ha mindent rendben talált a műszer, akkor a kábelt sikeresen elkészítettük
 </details>
 
 
-***5.3. Konfiguráció:***
+***5.3. Topológia & Konfiguráció:***
+
+***5.3.1. Topológia kiépítése:***
+
+Labortársaimmal, megbeszélést követően felosztottuk, hogy a hálózatban melyik eszközt Ki fogja konfigurálni és használni. A döntés során,  úgy alakult, hogy Én fogom kezelni az Access Layert amely a felhasználókhoz legközelebb lévő szint, hálózati tekintetből. 3 db eszközt fogok kezelni a projektmunka során.
+
+<details>
+    <summary>Access Switchek</summary>
+    <img src="" width="640" height="360">
+</details>
+
+Miután eszközeimet elrendeztem, elkezdhettük összekötni őket a Distribution Layer-el. Itt szintén fontos a Társaimmal való kommunikáció, hogy pontosan melyik Ethernet kábel, az adott Switchbe/Routerbe melyik portra csatlakozik. Amint összekötöttük egymást, helyességét a konfig felületen tudjuk ellenőrizni az alábbi parancsal:
+
+```cisco
+
+```
+
+<details>
+    <summary>Összekötött Access Switchek</summary>
+    <img src="" width="640" height="360">
+</details>
+
+<details>
+    <summary>CDP Neighbour</summary>
+    <img src="" width="640" height="360">
+</details>
+
+***5.3. Kábel szerelés:***
 
 
-***5.4. Kábel szerelés:***
-
-
-***5.5. Kábel szerelés:***
-
-
-***5.6. Kábel szerelés:***
+***5.3. Kábel szerelés:***
 
 
 **6. Összegzés:**
