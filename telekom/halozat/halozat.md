@@ -135,7 +135,106 @@ Konfiguráció tekintetében az IP cím tartományokkal kapcsolatban az alábbia
 - Access2
 -- Users (Vlan10): 172.16.0.128 /26
 
-Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a Layer 3 Switcheimen.
+Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a Layer 3 Switcheimen. A különösen kevésbé "alap" dolgokat az alábbiakban fogom felsorolni és mellékelni hozzájuk, hogy pontosan mit is csinálnak és, milyen parancsal kell őket életbe léptetni.
+
+***5.3.2.1. Layer 2:***
+
+***5.3.2.1.1. Rapid-pvst:***
+
+- Gyorsabb konvergenciát biztosít: A klasszikus STP-hez (802.1D) képest a Rapid PVST gyorsabban reagál a hálózati változásokra (például ha egy link meghibásodik vagy visszatér).
+- Minden VLAN-hoz külön Spanning Tree példányt futtat: Ez lehetővé teszi, hogy különböző VLAN-ok esetében más-más gyökérhíd (root bridge) és topológia legyen érvényben.
+- Visszafelé kompatibilis az STP-vel: Ha olyan eszközzel találkozik, amely csak a hagyományos STP-t támogatja, akkor visszalassul, hogy kompatibilis maradjon.
+
+```cisco
+Access0(config)#spanning-tree mode rapid-pvst
+```
+
+***5.3.2.1.2. Bpduguard:***
+
+A BPDU Guard egy fontos STP-védelmi mechanizmus, amely segít elkerülni a hurokképződést és a nem kívánt switch-csatlakozásokat azáltal, hogy tiltja azokat a portokat, amelyek váratlan BPDU-kat kapnak.
+
+Ezt egy adott interface alá kell konfigurálnunk!
+
+```cisco
+Access0(config-if)#spanning-tree bpduguard enable
+```
+
+***5.3.2.1.3. Port-fast:***
+
+- Átugorja az STP állapotokat: Normál esetben egy switch port az STP szerint Blocking → Listening → Learning → Forwarding állapotokon megy keresztül (~30 másodperc).
+- PortFast-tal a port azonnal Forwarding állapotba lép, így nem kell várni az STP konvergenciára.
+- Csak végponti eszközökre való: Ha egy switch másik switch-hez csatlakozik, nem szabad PortFast-ot használni, mert az STP nem tudná megfelelően kezelni a hurkokat.
+
+Ezt egy adott interface alá kell konfigurálnunk!
+
+```cisco
+Access0(config-if)#spanning-tree portfast
+```
+
+***5.3.2.1.4. VTP mode transparent:***
+
+- Nem vesz részt a VTP menedzsmentben: A switch nem fogadja el és nem alkalmazza más switch-ekről érkező VTP frissítéseket.
+- Továbbítja a VTP üzeneteket: Ha a switch kap egy VTP üzenetet, akkor továbbküldi a trunk portokon keresztül, de maga nem módosítja a VLAN konfigurációját.
+- Lokálisan kezeli a VLAN-okat: A VLAN-ok konfigurációja helyileg történik a switch-en, és ezek az információk nem frissülnek és nem terjednek más switch-ekre.
+- Mentés NVRAM-ba: A VLAN konfigurációt elmenti az NVRAM-ba (vlan.dat fájl), míg a VTP client és server módok nem.
+
+```cisco
+Access0(config)#vtp mode transparent
+```
+
+***5.3.2.2. Security:***
+
+***5.3.2.2.1. Port-security:***
+
+- Beállítja a megengedett MAC-címek számát az adott interfészen.
+- Ha több eszköz próbál csatlakozni, a switch a port biztonsági megsértéseként (violation) kezeli.
+- Kombinálható más Port Security opciókkal, például a megsértés kezelésének módjával (violation mode).
+
+Ezt egy adott interface alá kell konfigurálnunk!
+
+```cisco
+Access0(config-if)#switchport port-security maximum 1
+Access0(config-if)#switchport port-security violation restrict
+```
+
+***5.3.2.2.2. DHCP Snooping:***
+
+- Megakadályozza a hamis DHCP szerverek (rogue DHCP) működését, amelyek rossz IP-címeket osztogathatnának.
+- Megkülönbözteti a megbízható ("trusted") és a nem megbízható ("untrusted") portokat:
+- - Trusted (megbízható) portok: Csak itt engedélyezi a switch a DHCP szerver üzeneteket.
+- - Untrusted (nem megbízható) portok: Nem engedi, hogy itt DHCP válaszok érkezzenek.
+- DHCP Binding Table-t (snooping database) hoz létre: Tárolja a kliensek MAC-címét, IP-címét, interfészét és a bérleti időt, ezzel segítve a biztonsági funkciókat, például a Dynamic ARP Inspection-t (DAI) és az IP Source Guard-ot.
+
+```cisco
+Access0(config)#ip dhcp snooping
+```
+
+***5.3.2.2.3. ARP Inspection:***
+
+- Ellenőrzi az ARP kéréseket és válaszokat, mielőtt azokat továbbítaná a hálózatban.
+- Összeveti az ARP üzeneteket a DHCP Snooping Binding táblával – ha egy ARP csomag nem felel meg a tárolt IP-MAC hozzárendelésnek, akkor eldobja.
+- Védelmet nyújt ARP mérgezéses (ARP Poisoning) támadások ellen, amelyekkel egy támadó átveheti más eszközök IP-címét és elterelheti a forgalmat.
+
+```cisco
+Access0(config)#ip arp inspection vlan 10
+```
+
+***5.3.2.2.4. AAA Radius Authentication:***
+
+A AAA (Authentication, Authorization, and Accounting) egy biztonsági keretrendszer, amelyet hálózati eszközökön, például Cisco routereken és switch-eken használnak a felhasználók hitelesítésére, jogosultságainak kezelésére és tevékenységeik naplózására.
+
+A RADIUS (Remote Authentication Dial-In User Service) egy protokoll, amelyet a AAA keretrendszerrel együtt használnak a központi felhasználó-hitelesítéshez és engedélyezéshez.
+
+```cisco
+Access0(config)#aaa new-model
+Access0(config)#aaa authentication login default group radius local
+Access0(config)#aaa authorization console
+Access0(config)#aaa authorization exec default group radius local
+```
+
+***5.3.3. Teljes Access0 Konfiguráció***
+
+Itt pedig, egy lenyíló fül segítségével, csatolom a teljes konfigurációt amely az Access0 switchen van rajta. A másik két switchen csupán bizonyos IP címek vannak átírva, egyébként teljesen megegyező konfigurációk vannak rajtuk.
 
 <details>
     <summary>Access0 Konfiguráció</summary>
@@ -143,10 +242,10 @@ Számomra konfiguráció tekintetében egy szimpla konfigot kell alkalmaznom a L
 ```plaintext
 Building configuration...
 
-Current configuration : 3764 bytes
+Current configuration : 3729 bytes
 !
-! Last configuration change at 13:14:23 CET Thu Feb 20 2025 by zsombi
-! NVRAM config last updated at 13:29:47 CET Thu Feb 20 2025 by zsombi
+! Last configuration change at 13:30:36 CET Thu Feb 20 2025 by zsombi
+! NVRAM config last updated at 13:59:05 CET Thu Feb 20 2025 by andras
 !
 version 15.0
 no service pad
@@ -314,11 +413,10 @@ no ip http secure-server
 !
 !
 !
-ip access-list standard LEGAL_HOST
- deny   any
 ip access-list standard LEGAL_HOSTS
  permit 0.0.0.0
  permit 172.16.0.0 0.0.0.63
+ deny   any
 ip access-list standard REMOTE_CLI
  permit 10.0.1.2
  deny   any
@@ -353,9 +451,24 @@ end
 ```
 </details>
 
-***5.3. Kábel szerelés:***
-
-
 **6. Összegzés:**
 
+A vizsgálat célja egy teljes körű hálózati infrastruktúra megtervezése, konfigurálása és kivitelezése volt laboratóriumi környezetben. A feladat során a vizsgázó, részt vett a kábelezési folyamatokban, a hálózati eszközök (Cisco switchek és routerek) konfigurálásában, valamint a különböző hálózatbiztonsági és menedzsment beállítások elvégzésében.
+
+A hálózat kiépítése során egy redundáns és biztonságos topológiát alkalmaztak, amelyben az Access Layer switchek konfigurálása volt a vizsgázó feladata. A beállítások során implementálta a Rapid-PVST protokollt a gyorsabb hálózati konvergencia érdekében, valamint olyan védelmi mechanizmusokat, mint a BPDU Guard és a Port Security. Továbbá, a DHCP Snooping és az ARP Inspection beállításokkal biztosította a hálózat védelmét a hamis DHCP szerverek és ARP mérgezéses támadások ellen.
+
+A hálózati eszközök hitelesítésére és menedzselésére az AAA (Authentication, Authorization, Accounting) modellt és RADIUS szervert alkalmazták. Az IP címzési struktúra és a VLAN szegmentálás megfelelően lett kialakítva a különböző felhasználói csoportok számára. Az eszközök közötti kommunikáció és a konfigurációs beállítások helyességét a terminálon végzett parancsokkal ellenőrizték.
+
+A projektmunka során a csapatmunka és a kommunikáció kulcsfontosságú volt az eszközök megfelelő beállításához és a hibák minimalizálásához. Az elkészült hálózat megfelelt a biztonsági és funkcionalitási követelményeknek, biztosítva a hatékony és stabil működést.
+
 ***6.1. Reflexió:***
+
+A távközlési technikus vizsgafeladat teljesítése során rengeteg gyakorlati tapasztalatot szereztem, amely nagyban hozzájárult a szakmai fejlődésemhez. A feladat több lépcsőből állt, kezdve az egyszerű UTP kábel elkészítésétől egészen a stabil, redundáns és biztonságos hálózat megtervezéséig, konfigurálásáig és kivitelezéséig.
+
+Pozitív élményként éltem meg, hogy sikeresen és hatékonyan tudtam együttműködni a csapattársaimmal. A feladatok felosztása és a kommunikáció gördülékenyen zajlott, így mindenki tisztában volt a saját felelősségével és feladataival. Kifejezetten elégedett vagyok azzal, hogy az Access Layer konfigurációját én végezhettem el, hiszen ez nagy felelősséggel járt, és lehetőséget biztosított arra, hogy mélyebben megismerjem a hálózati eszközök működését.
+
+A konfiguráció során olyan fontos biztonsági és hálózatkezelési eljárásokat alkalmaztam, mint a Rapid-PVST, BPDU Guard, Port Security, DHCP Snooping és ARP Inspection. Ezek beállítása nemcsak a vizsgafeladat sikeres teljesítéséhez volt elengedhetetlen, hanem a valós hálózati környezetekben is kiemelten fontos szerepet játszanak.
+
+Természetesen a feladat során kihívásokkal is szembesültem. Az egyik legnagyobb nehézséget a kábelkészítés pontos kivitelezése jelentette, mivel a megfelelő színsorrend betartása és a precíz csatlakozókészítés elengedhetetlen a hibamentes működéshez. Emellett a konfiguráció során előfordult néhány hiba, például egyes IP címek és VLAN beállítások nem megfelelő alkalmazása, amelyeket időben sikerült kijavítani a megfelelő teszteléssel és ellenőrzéssel.
+
+Összességében elégedett vagyok a teljesítményemmel, mivel sikerült a vizsgafeladatot szakszerűen és pontosan végrehajtani. A megszerzett tudás és tapasztalatok hasznos alapot adnak a további szakmai fejlődésemhez, és megerősítették bennem azt a meggyőződést, hogy a távközlési hálózatok tervezése és konfigurálása területén szeretnék tovább fejlődni.
